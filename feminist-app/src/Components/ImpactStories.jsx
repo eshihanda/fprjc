@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import story1 from "../assets/story1.png";
+import sara2 from "../assets/sara2.png";
 import "../Styles/ImpactStories.css";
 
 const ImpactStories = () => {
   const story = {
-    img: story1,
+    img: sara2,
     title: "Women Must Lead",
     descr: "Through education and mentorship programs, Sarah gained skills and confidence to lead initiatives in her community. She now inspires other women to achieve their dreams and take action for change.",
   };
@@ -33,7 +33,7 @@ const ImpactStories = () => {
               href="/impact-stories"
               className="btn btn-golden px-4 py-2 fw-semibold"
             >
-              Chief Achieng's story
+              Read Sara's story
             </Button>
           </Col>
         </Row>
