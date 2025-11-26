@@ -1,0 +1,71 @@
+.why-women-section {
+  background: #f9f8fc;
+  text-align: center;
+  padding: 6rem 2rem;
+  color: #333;
+  overflow: hidden;
+}
+
+.section-subtitle {
+  color: #6f42c1;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  max-width: 900px;
+  margin: 0 auto 2rem auto;
+  color: #2c2048;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #6f42c1;
+  margin: 1rem auto 0 auto;
+  border-radius: 2px;
+}
+
+.section-text {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  line-height: 1.8;
+  max-width: 850px;
+  margin: 0 auto 3rem auto;
+  color: #444;
+  opacity: 0.9;
+}
+
+.btn-learn-more {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(111, 66, 193, 0.2);
+}
+
+.btn-learn-more:hover {
+  background: #5b2d91;
+  transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-text {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,61 @@
+.hero-section {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background: url("../assets/hero.png") center center/cover no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: visible; /* already correct */
+  margin-bottom: 100px; /* space for overlap */
+}
+
+
+.hero-overlay {
+  background: linear-gradient(to right, rgba(111, 66, 193, 0.8), rgba(0, 0, 0, 0.5));
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin-left: 5%;
+  padding: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+.mission-bar {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translate(-50%, 0); /* correct full centering */
+  width: min(90%, 1200px); /* responsive and max width in one line */
+  background: #ffffff;
+  color: #6f42c1;
+  text-align: center;
+  padding: 2rem 2.5rem;
+  border-radius: 18px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+.mission-bar p {
+  margin: 0;
+  font-size: rem;
+}

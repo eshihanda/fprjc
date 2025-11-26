@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+:root {
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.5px;
+}
+
+p, li, span {
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+/* Goldenrod Button */
+.btn-golden {
+  background-color: #DAA520;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-golden:hover {
+  background-color: #c2901c;  
+  transform: translateY(-2px);
+}
+
+.btn-golden:active {
+  transform: scale(0.97);
+}
+/* board */
+.board-title {
+  font-family: var(--font-heading);
+  letter-spacing: -0.3px;
+}
+
+.board-role {
+  font-family: var(--font-heading);
+  color: #444;
+  font-size: 1rem;
+}
+
+.board-bio {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #333;
+}
+
+.board-card {
+  transition: transform 0.2s ease;
+}
+
+.board-card:hover {
+  transform: translateY(-3px);
+}
+

@@ -1,0 +1,139 @@
+/* ================================
+   GLOBAL NAVBAR STYLING
+================================ */
+.topnav {
+  padding: 0.8rem 0;
+  background-color: #f4f3f6ff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 999;
+}
+
+/* Logo + Brand */
+.brand-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  filter: brightness(1.15);
+  object-fit: cover;
+}
+
+.brand-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #6f42c1;
+  letter-spacing: -0.5px;
+}
+
+/* ================================
+   NAV LINKS
+================================ */
+
+/* Higher specificity + Important*/
+.navbar-nav .nav-link-custom {
+  color: #6f42c1 !important;
+  font-size: 1.15rem !important;
+  font-weight: 600;
+  margin: 0 12px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link-custom:hover {
+  color: #DAA520 !important;
+  transform: translateY(-1px);
+}
+
+/* Active link */
+.navbar-nav .nav-link-custom.active {
+  color: #DAA520 !important;
+  font-weight: 700;
+}
+
+/* ================================
+   DROPDOWNS
+================================ */
+
+.custom-dropdown .dropdown-toggle {
+  color: #6f42c1 !important;
+  font-size: 1.15rem !important;
+  font-weight: 600;
+}
+
+/* Dropdown container */
+.custom-dropdown .dropdown-menu {
+  background-color: #5b2d91;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 0;
+  min-width: 220px;
+}
+
+/* Dropdown items */
+.custom-dropdown .dropdown-item {
+  color: #fff !important;
+  font-size: 1.05rem;
+  padding: 10px 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #DAA520;
+  color: #333 !important;
+}
+
+/* ================================
+   DONATE BUTTON
+================================ */
+.donate-btn {
+  background-color: #6f42c1;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 26px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.donate-btn:hover {
+  background-color: #DAA520 !important;
+  transform: translateY(-2px);
+}
+
+/* ================================
+   RESPONSIVE (MOBILE)
+================================ */
+
+@media (max-width: 992px) {
+
+  .nav-logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  .brand-name {
+    font-size: 1.2rem;
+  }
+
+  .navbar-nav .nav-link-custom {
+    font-size: 1.1rem !important;
+    margin: 8px 0;
+  }
+
+  .custom-dropdown .dropdown-toggle {
+    font-size: 1.1rem;
+  }
+
+  .donate-btn {
+    width: 100%;
+    margin-top: 12px;
+  }
+}

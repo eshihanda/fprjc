@@ -1,0 +1,13 @@
+.bg-purple {
+  background-color: #6f42c1;
+}
+
+.impact-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.impact-number + p {
+  font-size: 1.2rem;
+}

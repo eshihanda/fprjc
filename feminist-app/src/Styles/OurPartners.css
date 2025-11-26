@@ -1,0 +1,50 @@
+.partners-section {
+  overflow: hidden;
+  position: relative;
+}
+
+.partner-slide {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.slide-track {
+  display: flex;
+  animation: scroll 25s linear infinite;
+  width: calc(250px * 10);
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 100px;
+  padding: 10px;
+}
+
+.slide img {
+  max-height: 80px;
+  max-width: 150px;
+  object-fit: contain;
+
+  /* No grayscale + hover effects */
+  filter: none !important;
+  transition: none;
+}
+
+/* No hover grayscale */
+.slide img:hover {
+  filter: none !important;
+}
+
+/* Continuous scroll animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

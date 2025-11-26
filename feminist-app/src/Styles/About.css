@@ -1,0 +1,35 @@
+.about-section p,
+.history-section p,
+.why-women-section p {
+    font-size: 1.2rem; 
+    line-height: 1.8;
+}
+.vision-section {
+  padding: 2rem 1rem;         
+  border-radius: 12px;     
+}
+
+.vision-section h2 {
+  margin-bottom: 1rem;
+}
+
+.vision-section p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+.value-card {
+  background-color: #ffffff;   /* Solid white card */
+  border: 1px solid #ddd;      /* Light border that matches grey bg */
+  transition: background-color 0.3s ease, 
+              transform 0.3s ease,
+              border-color 0.3s ease,
+              color 0.3s ease;
+}
+
+.value-card:hover {
+  background-color: #8b2ae5; /* Purple */
+  transform: translateY(-5px);
+  border-color: #8b2ae5;
+  color: #fff !important;  /* Force the text inside to turn white */
+}
