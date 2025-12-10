@@ -9,7 +9,7 @@ import brandy from '../assets/brandy.png';
 import meg from '../assets/meg.png';
 import purity from '../assets/purity.png';
 import marline from '../assets/marline.png';
-import lizzy from '../assets/lizzy.png';
+import Lizzy from '../assets/Lizzy.png';
 import euny from '../assets/euny.png';
 import bravin from '../assets/bravin.png';
 import diana from '../assets/diana.png';
@@ -80,7 +80,7 @@ const teamMembers = [
     name: "Liz Achieng",
     title: "Project Officer",
     department: "Women's Health Rights and Wellbeing",
-    photo: lizzy ,
+    photo: Lizzy ,
   },
   {
     name: "Eunice Murungi",
