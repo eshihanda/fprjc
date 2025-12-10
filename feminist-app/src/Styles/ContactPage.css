@@ -1,0 +1,158 @@
+
+.contact-hero-section {
+  width: 100%;
+  min-height: 50vh;
+  overflow: hidden;
+}
+
+.contact-hero-row {
+  min-height: 70vh;
+}
+.contact-text-wrapper {
+  background: linear-gradient(135deg, #F5F5DC 0%, #8462bf 100%);
+  display: flex;
+  align-items: center;
+  padding: 60px;
+
+}
+
+.contact-text-content {
+  max-width: 550px;
+  margin: 0 auto;
+}
+.contact-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color:   #8b2ae5;
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+
+
+.contact-description {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 35px;
+}
+.brand-highlight {
+  color:  #8b2ae5;
+  font-weight: 600;
+}
+.contact-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.btn-about {
+  background-color:  #8b2ae5;
+  color: white;
+  padding: 14px 35px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+  display: inline-block;
+  width: fit-content;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(85, 107, 47, 0.2);
+}
+
+.btn-about:hover {
+  background-color: #8b3d75;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(130, 76, 188, 0.3);
+  color: white;
+}
+.contact-phone {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.phone-label {
+  font-size: 0.95rem;
+  color: #6c1a62;
+  font-weight: 500;
+}
+.phone-number {
+  font-size: 1.5rem;
+  color: #8b2ae5;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.contact-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.contact-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.contact-image-wrapper:hover .contact-image {
+  transform: scale(1.05);
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-text-wrapper {
+    padding: 50px 40px;
+  }
+
+  .contact-heading {
+    font-size: 2.2rem;
+  }
+
+  .contact-description {
+    font-size: 1.1rem;
+  }
+}
+/* Style for the contact information and contact form */
+.contact-section {
+  background-color: #e0d2dc;
+}
+
+.contact-info h3,
+.contact-form h3 {
+  color:  #8b2ae5;
+}
+
+.contact-info ul li i {
+  font-size: 1.2rem;
+}
+
+.contact-form .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+  border-color:  #8b2ae5;
+  box-shadow: 0 0 5px rgba(189, 74, 172, 0.3);
+}
+
+.contact-form .btn-success {
+  background-color:  #8b2ae5;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-success:hover {
+  background-color:  #8b2ae5;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .contact-info {
+    text-align: center;
+  }
+  .contact-form {
+    text-align: center;
+  }
+}

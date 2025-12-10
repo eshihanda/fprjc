@@ -21,7 +21,7 @@ import Pillar2 from './Pages/Pillar2';
 import Pillar3 from './Pages/Pillar3';
 import Blog from './Pages/Blog';
 import Careers from './Pages/Careers';
-import Contact from './Pages/Contact';
+import ContactUs from './Pages/ContactUs';
 import Donate from './Pages/Donate';
 
 const App = () => {
@@ -54,16 +54,16 @@ const App = () => {
         <Route path="/our-board" element={<OurBoard />} />
 
         {/* Programmes */}
-        <Route path="/pillar1" element={<Pillar1 />} />
+        {/* <Route path="/pillar1" element={<Pillar1 />} />
         <Route path="/pillar2" element={<Pillar2 />} />
-        <Route path="/pillar3" element={<Pillar3 />} />
+        <Route path="/pillar3" element={<Pillar3 />} /> */}
 
         {/* Updates */}
         <Route path="/blog" element={<Blog />} />
         <Route path="/careers" element={<Careers />} />
 
         {/* Other Pages */}
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="/donate" element={<Donate />} />
       </Routes>
     </>

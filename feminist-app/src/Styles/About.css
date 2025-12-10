@@ -31,5 +31,5 @@
   background-color: #8b2ae5; /* Purple */
   transform: translateY(-5px);
   border-color: #8b2ae5;
-  color: #fff !important;  /* Force the text inside to turn white */
+  color: #fff !important; 
 }

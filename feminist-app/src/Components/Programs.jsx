@@ -18,7 +18,7 @@ const Programs = () => {
                 <p> Advocating for access to quality healthcare, reproductive rights, and
                     holistic wellbeing for women and girls in our communities
                 </p>
-                <a href="/pillar-1" className='learn-more'>Learn More</a>
+                <a href='our-impact' className='learn-more'> Learn More </a>
             </div>
             <div className='program-card'>
                 <img src={pillar2} alt='leadership program' />
@@ -26,7 +26,8 @@ const Programs = () => {
                 <p> Strengthening women’s leadership capacity, political participation,
                     and representation in decision-making processes.
                 </p>
-                <a href="/pillar-2" className='learn-more'>Learn More</a>
+                <a href='our-impact' className='learn-more'> Learn More </a>
+
             </div>
             <div className='program-card'>
                 <img src={pillar3} alt='leadership program' />
@@ -34,7 +35,8 @@ const Programs = () => {
                 <p> Promoting sustainable livelihoods and women-led climate adaptation
                     initiatives that foster environmental justice.
                 </p>
-                <a href="/pillar-3" className='learn-more'>Learn More</a>
+                <a href='our-impact' className='learn-more'> Learn More </a>
+
             </div>
         </div>
     </section>

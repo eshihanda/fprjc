@@ -23,23 +23,26 @@ const TopNav = () => {
 
             <NavDropdown title="Our Story" id="story-dropdown" className="nav-link-custom custom-dropdown">
               <NavDropdown.Item href="/about-us">About Us</NavDropdown.Item>
-              <NavDropdown.Item href="/our-impact">Our Impact</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/our-impact">Our Impact</NavDropdown.Item> */}
               <NavDropdown.Item href="/our-team">Our Team</NavDropdown.Item>
               <NavDropdown.Item href="/our-board">Board of Directors</NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="Our Programmes" id="programmes-dropdown" className="nav-link-custom custom-dropdown">
+            {/* <NavDropdown title="Our Programmes" id="programmes-dropdown" className="nav-link-custom custom-dropdown">
               <NavDropdown.Item href="/pillar1">Women's Health Rights & Wellbeing</NavDropdown.Item>
               <NavDropdown.Item href="/pillar2">Women's Leadership & Governance</NavDropdown.Item>
               <NavDropdown.Item href="/pillar3">Women's Climate Action & Livelihoods Development</NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
+
+             <Nav.Link href='our-impact' className='nav-link-custom'> Our Impact </Nav.Link>
 
             <NavDropdown title="Updates" id="updates-dropdown" className="nav-link-custom custom-dropdown">
               <NavDropdown.Item href="/blog">Blog Posts</NavDropdown.Item>
               <NavDropdown.Item href="/careers">Career Opportunities</NavDropdown.Item>
             </NavDropdown>
+            
 
-            <Nav.Link href="/contact" className="nav-link-custom">Contact</Nav.Link>
+            <Nav.Link href="/contact" className="nav-link-custom">Contact Us</Nav.Link>
           </Nav>
 
           <Nav className="ms-auto align-items-center">
