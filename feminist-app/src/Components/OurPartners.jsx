@@ -1,9 +1,9 @@
 import React from 'react'
-import womankind from '../Assets/womankind.png'
-import unhrc from '../Assets/unhrc.png'
-import ignite from '../Assets/ignite.png'
-import rfsu from '../Assets/rfsu.png'
-import awdf from '../Assets/awdf.png'
+import womankind from '../assets/womankind.png'
+import unhrc from '../assets/unhrc.png'
+import ignite from '../assets/ignite.png'
+import rfsu from '../assets/rfsu.png'
+import awdf from '../assets/awdf.png'
 import '../Styles/OurPartners.css'
 
 const OurPartners = () => {
