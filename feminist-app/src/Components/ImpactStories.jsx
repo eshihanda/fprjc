@@ -1,9 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import sara2 from "../assets/sara2.png";
 import "../Styles/ImpactStories.css";
 
 const ImpactStories = () => {
+  const navigate = useNavigate(); //initialize
+
   const story = {
     img: sara2,
     title: "Women Must Lead",
@@ -30,8 +33,8 @@ const ImpactStories = () => {
             <h3 className="text-purple fw-bold mb-3">{story.title}</h3>
             <p className="text-muted fs-6 mb-3">{story.descr}</p>
             <Button
-              href="/impact-stories"
               className="btn btn-golden px-4 py-2 fw-semibold"
+              onClick={() => navigate("/impact-stories")} // navigate to Sarah's page
             >
               Read Sara's story
             </Button>

@@ -23,6 +23,7 @@ import Blog from './Pages/Blog';
 import Careers from './Pages/Careers';
 import ContactUs from './Pages/ContactUs';
 import Donate from './Pages/Donate';
+import ImpactStoriesPage from './Pages/ImpactStoriesPage';
 
 const App = () => {
   return (
@@ -65,6 +66,8 @@ const App = () => {
         {/* Other Pages */}
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/donate" element={<Donate />} />
+        <Route path="/impact-stories" element={<ImpactStoriesPage />} />
+
       </Routes>
     </>
   );

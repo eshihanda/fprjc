@@ -1,8 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import "../Styles/HeroSection.css";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="hero-section">
       <div className="hero-overlay">
@@ -14,13 +17,14 @@ const HeroSection = () => {
         >
           <h1>FPRJC Transforming Lives.</h1>
           <p>
-            We strive to inspire and develop a generation of grassroot women to have a voice
-            and ignite feminist leadership action for geneder transformative change.
+            We strive to inspire and develop a generation of grassroots women to have a voice
+            and ignite feminist leadership action for gender-transformative change.
           </p>
           <motion.button
             className="btn btn-golden btn-lg"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => navigate("/about-us")}
           >
             Learn More
           </motion.button>
