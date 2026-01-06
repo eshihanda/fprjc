@@ -1,0 +1,34 @@
+.donate-hero {
+  background-color: #5b2b82; /* your purple */
+  padding: 100px 0;
+}
+
+.donate-form-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.donate-form-card h3 {
+  margin-bottom: 20px;
+}
+.impact-img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .impact-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .donate-hero {
+    padding: 60px 0;
+  }
+}
