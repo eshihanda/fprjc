@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='footer-main'>
                 {/* Logo Section */}
                 <div className='footer-section logo-section'>
-                    <img src={logo} alt="Pipi House Logo" className='footer-logo' />
+                    <img src={logo} alt="fpjc" className='footer-logo' />
                     <p className='footer-description'>
                         Feminist for Peace Rights and Justice Center
                     </p>

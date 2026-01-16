@@ -19,6 +19,13 @@
   object-fit: cover;
   display: block;
 }
+.donate-impact-content {
+  padding: 40px 20px;
+}
+
+.donate-form-card {
+  padding: 40px;
+}
 
 @media (max-width: 768px) {
   .impact-img {
