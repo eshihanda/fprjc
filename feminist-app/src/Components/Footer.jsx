@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from '../assets/logo.jpeg'
+import logo from '../assets/logo.png'
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import '../Styles/Footer.css'
 
 const Footer = () => {
@@ -13,6 +14,21 @@ const Footer = () => {
                     <p className='footer-description'>
                         Feminist for Peace Rights and Justice Center
                     </p>
+                    {/* Social media links */}
+                    <div className=' footer-socials'>
+                        <a href="https://web.facebook.com/profile.php?id=100075700396342" target="_blank" rel="noreferrer">
+                            <FaFacebookF />
+                        </a>
+                        <a href="https://www.instagram.com/feministcentre/" target="_blank" rel="noreferrer">
+                            <FaInstagram />
+                        </a>
+                        <a href="https://twitter.com/feminist_centre" target="_blank" rel="noreferrer">
+                            <FaTwitter />
+                        </a>
+                        <a href="https://www.linkedin.com/in/feminist-for-peace-rights-and-justice-centre-195aa1172/" target="_blank" rel="noreferrer">
+                            <FaLinkedinIn />
+                        </a>
+                    </div>
                 </div>
                 
                 {/* Quick Links Section */}
