@@ -1,0 +1,58 @@
+.about-hero {
+  position: relative;
+}
+.careers-intro {
+  padding: 40px 20px;
+  background: #f9f5ff;
+  text-align: center;
+}
+
+.careers-intro p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #4a3b5c;
+  line-height: 1.7;
+}
+.vacancies-section {
+  padding: 70px 20px;
+  background: #ffffff;
+}
+
+.vacancies-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #3a1f5d;
+  margin-bottom: 40px;
+}
+
+.vacancies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.vacancy-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.vacancy-card:hover {
+  transform: translateY(-5px);
+}
+
+.vacancy-card h4 {
+  color: #5b2b82;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.vacancy-meta {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}

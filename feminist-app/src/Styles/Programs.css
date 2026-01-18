@@ -46,7 +46,7 @@
 }
 .program-card h3 {
   font-family: var(--font-heading);
-  color: #6f42c1;
+  color: #4b2a7b;
   font-size: 1.4rem;
   margin: 1.5rem 1rem 0.5rem;
 }
@@ -60,7 +60,7 @@
 }
 .learn-more {
   display: inline-block;
-  color: #6f42c1;
+  color: #4b2a7b;
   font-weight: 600;
   margin: 0 0 1.5rem;
   text-decoration: none;
