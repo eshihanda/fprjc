@@ -75,6 +75,38 @@ const Careers = () => {
     </div>
   </div>
 </section>
+<section className="consultancy-section">
+  <div className="container">
+    <h3 className="vacancies-title">Consultancy and Call for Proposals</h3>
+
+    <div className="consultancy-card">
+      <h4>
+        Consultancy for Organizational Capacity Strengthening on Advocacy, Policy Engagement, and Safeguarding
+      </h4>
+
+      <p className="vacancy-meta">
+        Consultancy Opportunity | Nairobi / Remote
+      </p>
+
+      <p>
+        Feminist for Peace Rights and Justice Center invites qualified consultants
+        and firms to submit proposals for an organizational capacity strengthening
+        assignment focused on advocacy, policy engagement, and safeguarding.
+      </p>
+
+      <div className="d-flex justify-content-center gap-3 mt-4">
+        <a
+          href="public/jobs/Tor.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-outline-golden"
+        >
+          Download TOR (PDF)
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 <Footer />
 </>
   )
