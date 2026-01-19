@@ -37,7 +37,7 @@ const Careers = () => {
         <p className="vacancy-meta">Volunteer | Nairobi / Remote</p>
 
         <a
-          href="public/jobs/Bdpartnership.pdf"
+          href="/jobs/Bdpartnership.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-golden"
@@ -51,7 +51,7 @@ const Careers = () => {
         <p className="vacancy-meta">Volunteer | Nairobi / Remote</p>
 
         <a
-          href="public/jobs/Bdresource.pdf"
+          href="/jobs/Bdresource.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-golden"
@@ -64,7 +64,7 @@ const Careers = () => {
         <p className="vacancy-meta">Volunteer | Nairobi / Remote</p>
 
         <a
-          href="public/jobs/Bdleadership.pdf"
+          href="/jobs/Bdleadership.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-golden"
@@ -96,7 +96,7 @@ const Careers = () => {
 
       <div className="d-flex justify-content-center gap-3 mt-4">
         <a
-          href="public/jobs/Tor.pdf"
+          href="/jobs/Tor.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-outline-golden"
