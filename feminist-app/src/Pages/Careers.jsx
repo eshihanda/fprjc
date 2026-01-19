@@ -36,41 +36,38 @@ const Careers = () => {
         <h4>Board Member - Partnership and Development</h4>
         <p className="vacancy-meta">Volunteer | Nairobi / Remote</p>
 
-        <a
-          href={`${import.meta.env.BASE_URL}jobs/Bdpartnership.pdf`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-golden"
-        >
-          View Role Description(PDF)
-        </a>
+          <a
+            href="/Bdpartnership.pdf"
+            target="_blank"
+            className="btn btn-golden"
+          >
+            View Role Description (PDF)
+          </a>
       </div>
 
       <div className="vacancy-card">
         <h4>Board Member - Resource Mobilization</h4>
         <p className="vacancy-meta">Volunteer | Nairobi / Remote</p>
 
-        <a
-          href={`${import.meta.env.BASE_URL}jobs/Bdresource.pdf`}
+          <a
+          href="/Bdresource.pdf"
           target="_blank"
-          rel="noopener noreferrer"
           className="btn btn-golden"
         >
-          View Role Description(PDF)
+          View Role Description (PDF)
         </a>
       </div>
       <div className="vacancy-card">
         <h4>Board Member - Feminist Leadership and Governance</h4>
         <p className="vacancy-meta">Volunteer | Nairobi / Remote</p>
 
-        <a
-          href={`${import.meta.env.BASE_URL}jobs/Bdleadership.pdf`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-golden"
-        >
-          View Role Description(PDF)
-        </a>
+          <a
+            href="/Bdleadership.pdf"
+            target="_blank"
+            className="btn btn-golden"
+          >
+            View Role Description (PDF)
+          </a>
       </div>
     </div>
   </div>
@@ -95,12 +92,7 @@ const Careers = () => {
       </p>
 
       <div className="d-flex justify-content-center gap-3 mt-4">
-        <a
-          href={`${import.meta.env.BASE_URL}jobs/Tor.pdf`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-outline-golden"
-        >
+        <a href="/Tor.pdf" download className="btn btn-outline-golden">
           Download TOR (PDF)
         </a>
       </div>
