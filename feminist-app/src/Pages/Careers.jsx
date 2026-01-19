@@ -92,9 +92,13 @@ const Careers = () => {
       </p>
 
       <div className="d-flex justify-content-center gap-3 mt-4">
-        <a href="/Tor.pdf" download className="btn btn-outline-golden">
-          Download TOR (PDF)
-        </a>
+        <a
+            href="/Tor.pdf"
+            target="_blank"
+            className="btn btn-golden mb-3"
+          >
+            Download TOR
+          </a>
       </div>
     </div>
   </div>
