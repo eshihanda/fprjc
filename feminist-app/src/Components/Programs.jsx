@@ -15,16 +15,17 @@ const Programs = () => {
             <div className='program-card'>
                 <img src={pillar1} alt='health program' />
                 <h3> Women's Health Rights and Wellbeing</h3>'
-                <p> Advocating for access to quality healthcare, reproductive rights, and
-                    holistic wellbeing for women and girls in our communities
+                <p> To promote women’s health rights and wellbeing through equitable access to health 
+                    and wellness resources including reproductive health care and mental health information and services.
                 </p>
                 <a href='our-impact' className='learn-more'> Learn More </a>
             </div>
             <div className='program-card'>
                 <img src={pillar2} alt='leadership program' />
                 <h3> Women's Leadership and Governnance</h3>'
-                <p> Strengthening women’s leadership capacity, political participation,
-                    and representation in decision-making processes.
+                <p> To strengthen the capacity of women leaders to design and lead grass root feminism movements
+                    for intergenerational and intersectional dialogue, build solidarity and catalyze bold, transformative 
+                    and ambitious action to achieve gender equality..
                 </p>
                 <a href='our-impact' className='learn-more'> Learn More </a>
 
@@ -32,8 +33,7 @@ const Programs = () => {
             <div className='program-card'>
                 <img src={pillar3} alt='leadership program' />
                 <h3> Women's Climate Action and Livelihoods</h3>'
-                <p> Promoting sustainable livelihoods and women-led climate adaptation
-                    initiatives that foster environmental justice.
+                <p> To promote intersectional climate action by advocating for climate justice, building community resilience, and supporting inclusive livelihood development.
                 </p>
                 <a href='our-impact' className='learn-more'> Learn More </a>
 

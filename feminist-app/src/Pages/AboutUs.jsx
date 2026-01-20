@@ -71,9 +71,9 @@ const AboutUs = () => {
           >
           For a long time, women in our communities have faced discrimination and
           marginalization from all forms of life. Women face persistent barriers
-          to education, technology, and economic empowerment, which hinder their
-          ability to reach their full potential. By investing in the education and
-          digital empowerment of women and girls, we aim to break cycles of
+          to education, technology, climate shocks, and economic empowerment, which hinder their
+          ability to reach their full potential. By investing in advocacy, education, awareness creation, 
+          financial literacy and digital literacy of women and girls, we aim to break cycles of
           inequality, build confidence, and create pathways to independence and
           leadership. <br /> <br />
           At FPRJC, our <strong>mission</strong> is to inspire and develop a generation of
@@ -96,7 +96,7 @@ const AboutUs = () => {
             <div className='col-md-4'>
               <div className="p-3 h-100 border border-secondary rounded shadow-sm value-card">
                 <h5 className="fw-bold">Solidarity</h5>
-                <p>We collaborate and work for the common good—protecting, defending,
+                <p>We collaborate and work for the common good; protecting, defending,
                    and championing the rights of women, girls, and people of all gender identities.
                 </p>
               </div>

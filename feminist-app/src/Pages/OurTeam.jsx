@@ -29,7 +29,7 @@ import diana1 from '../assets/diana1.png';
 
 const teamMembers = [
   {
-    name: "Diana Akiya",
+    name: "Diana Kirigo",
     title: "Operations Associate",
     department: "Supports all pillars",
     photo: diana1,
@@ -65,7 +65,7 @@ const teamMembers = [
     photo: purity,
   },
   {
-    name: "Marline Achieng",
+    name: "Marline Kerera",
     title: "Project Coordinator",
     department: "Women's Leadership and Governance",
     photo: marline,
@@ -135,9 +135,8 @@ const OurTeam = () => {
           borderLeft: "4px solid #6f42c1"
           }}
         >
-          At FPRJC, our team is united by a shared passion for gender equality and 
-          community empowerment. We bring together diverse skills, lived experiences, 
-          and leadership to create lasting change in the communities we serve. 
+          Our team bring together diverse skills, lived experiences, 
+          and leadership to create meaningful long-lasting change in the communities we serve for gender transformation. 
           Every member of our team is committed to advancing the rights, voices, 
           and dignity of women and girls.
         </p>
