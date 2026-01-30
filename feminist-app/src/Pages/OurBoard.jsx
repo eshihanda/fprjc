@@ -5,7 +5,7 @@ import Footer from '../Components/Footer';
 import may from "../assets/may.png";
 import nancy from "../assets/nancy.png";
 import elvis from "../assets/elvis.png";
-import dita1 from "../assets/dita1.png";
+import dita1 from "../assets/dita1.jpeg";
 
 const boardMembers = [
   {

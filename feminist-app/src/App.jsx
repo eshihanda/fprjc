@@ -24,6 +24,7 @@ import Careers from './Pages/Careers';
 import ContactUs from './Pages/ContactUs';
 import Donate from './Pages/Donate';
 import ImpactStoriesPage from './Pages/ImpactStoriesPage';
+import FounderBio from './Pages/FounderBio';
 
 const App = () => {
   return (
@@ -67,6 +68,8 @@ const App = () => {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/impact-stories" element={<ImpactStoriesPage />} />
+        <Route path="/founder-bio" element={<FounderBio />} />
+
 
       </Routes>
     </>

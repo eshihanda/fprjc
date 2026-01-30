@@ -19,6 +19,9 @@ import momi from '../assets/momi.png';
 import sara from '../assets/sara.png';
 import diana1 from '../assets/diana1.png';
 
+import { Link } from 'react-router-dom';
+
+
 
 
 
@@ -83,7 +86,7 @@ const teamMembers = [
     photo: Lizzy ,
   },
   {
-    name: "Eunice Murungi",
+    name: "Eunice Muyungi",
     title: "Project Officer",
     department: "Women Climate Action and Livelihood Development",
     photo: euny,
@@ -156,7 +159,7 @@ const OurTeam = () => {
                 Meet the visionary behind FPRJC, whose passion and dedication laid the foundation
                 for our work in gender equality and women’s empowerment.
                 </p>
-                <Button href='/founder-bio' variant='light' className='fw-bold btn-golden'>
+                <Button as={Link} to='/founder-bio' variant='light' className='fw-bold btn-golden'>
                 Meet our Executive Director
                 </Button>
             </Col>

@@ -1,13 +1,14 @@
 import React from 'react'
-import womankind from '../assets/womankind.png'
-import unhrc from '../assets/unhrc.png'
-import ignite from '../assets/ignite.png'
+import unfpa from '../assets/unfpa.png'
+import ohchr from '../assets/ohchr.png'
+import femnet from '../assets/femnet.png'
 import rfsu from '../assets/rfsu.png'
+import riseup from '../assets/riseup.png'
 import awdf from '../assets/awdf.png'
 import '../Styles/OurPartners.css'
 
 const OurPartners = () => {
-  const logos = [womankind, unhrc, ignite, rfsu, awdf];
+  const logos = [unfpa, ohchr, femnet, rfsu, riseup, awdf];
 
   return (
     <section className='py-5 bg-light partners-section'>
