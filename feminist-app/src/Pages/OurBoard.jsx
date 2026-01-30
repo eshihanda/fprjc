@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Footer from '../Components/Footer';
 
 import may from "../assets/may.png";
-import nancy from "../assets/nancy.png";
 import elvis from "../assets/elvis.png";
 import dita1 from "../assets/dita1.jpeg";
 
@@ -25,8 +24,19 @@ const boardMembers = [
     `,
   },
   {
+    name: "Elvis Kosgei",
+    role: "Program Quality and Compliance",
+    photo: elvis,
+    bio: `
+      Elvis Koskei is a Communications Specialist with over six years of experience in journalism, 
+      media production, and strategic communication. He is deeply committed to advocating for 
+      underrepresented communities, particularly women and girls, using storytelling as 
+      a powerful tool for social justice.
+    `,
+  },
+  {
     name: "Editar Ochieng",
-    role: "Executive Director",
+    role: "Secretary ",
     photo: dita1,
     bio: `
       Editar Ochieng is a feminist, human rights advocate, and grassroots organizer dedicated 
@@ -36,30 +46,6 @@ const boardMembers = [
 
       Her work is rooted in lived experience and a deep commitment to creating safe, equitable, 
       and liberating spaces for marginalized groups.
-    `,
-  },
-  {
-    name: "Nancy Mutola",
-    role: "Partnership Development",
-    photo: nancy,
-    bio: `
-      Nancy Mutola is a dedicated feminist and human rights advocate committed to promoting 
-      women’s scalability and social justice. She has extensive experience in feminist organizing, 
-      community activism, and civil society leadership across the Global South.
-
-      Nancy specializes in fostering collaboration among policymakers, civil society organizations, 
-      and community leaders, championing gender-based rights and social inclusion.
-    `,
-  },
-  {
-    name: "Elvis Kosgei",
-    role: "Program Quality and Compliance",
-    photo: elvis,
-    bio: `
-      Elvis Koskei is a Communications Specialist with over six years of experience in journalism, 
-      media production, and strategic communication. He is deeply committed to advocating for 
-      underrepresented communities, particularly women and girls, using storytelling as 
-      a powerful tool for social justice.
     `,
   },
 ];
