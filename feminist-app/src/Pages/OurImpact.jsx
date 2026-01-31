@@ -61,7 +61,7 @@ const OurImpact = () => {
       <h2 style={{ fontFamily: "var(--font-heading)", fontWeight: "600", fontSize: "2rem", lineHeight: "1.6",
         textAlign: "center",
         color: "#3a1f5d", }} >
-        When we imagine a feminist future, we see a world where women, girls, and people of all genders 
+        We imagine a feminist future where women, girls, and people of all genders 
         live with equal rights, real freedom, and the power to shape their own lives.
         A world where every person can thrive with joy, dignity, and choice — free from violence, discrimination, and limitation.
       </h2>

@@ -88,7 +88,7 @@ const Officers = [
     photo: momi,
   },
   {
-    name: "Bravin",
+    name: "Bravine",
     title: "Communications Officer",
     photo: bravin,
   },
