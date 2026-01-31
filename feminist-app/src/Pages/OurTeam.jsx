@@ -8,7 +8,6 @@ import july from '../assets/july.png';
 import feli from '../assets/feli.png';
 import brandy from '../assets/brandy.png';
 import meg from '../assets/meg.png';
-import purity from '../assets/purity.png';
 import marline from '../assets/marline.png';
 import Lizzy from '../assets/Lizzy.png';
 import euny from '../assets/euny.png';
@@ -19,7 +18,6 @@ import irene from '../assets/irene.png';
 import momi from '../assets/momi.png';
 import sara from '../assets/sara.png';
 import diana1 from '../assets/diana1.png';
-import cynthia from '../assets/cynthia.png';
 
 import { Link } from 'react-router-dom';
 
@@ -46,18 +44,8 @@ const Managers = [
   },
   {
     name: "Marline Kerera",
-    title: "Project Coordinator - Women's Leadership and Governance",
+    title: "Programs Coordinator - Women's Leadership and Governance",
     photo: marline,
-  },
-  {
-    name: 'Wanjiku Ruth',
-    title: 'MEAL Manager',
-    photo: cynthia,
-  },
-  {
-    name: 'Stephanie Achieng',
-    title: 'Finance Manager',
-    photo: purity,
   },
   {
     name: "Meg Nasimiyu",
@@ -69,17 +57,17 @@ const Managers = [
 const Officers = [
   {
     name: "Sara Dafala",
-    title: "Project Officer - Pillar 1",
+    title: "Project Officer - Women's Health Rights and Wellbeing",
     photo: sara,
   },
   {
     name: "Alice Atieno",
-    title: "Project Officer - Pillar 2",
+    title: "Project Officer - Women's Leadership and Governance",
     photo: Lizzy,
   },
   {
     name: "Eunice Muyungi",
-    title: "Project Officer - Pillar 3",
+    title: "Project Officer - Women's Climate Action and Livelihoods Development",
     photo: euny,
   },
   {
