@@ -48,7 +48,7 @@ const Managers = [
     photo: marline,
   },
   {
-    name: "Meg Nasimiyu",
+    name: "Margaret Muchoki",
     title: "Communications Manager",
     photo: meg,
   },
