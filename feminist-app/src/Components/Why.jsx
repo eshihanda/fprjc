@@ -33,9 +33,9 @@ const Why = () => {
       >
         For a long time, women in our communities have faced discrimination and
         marginalization from all forms of life. Women face persistent barriers
-        to education, technology, and economic empowerment, which hinder their
-        ability to reach their full potential. By investing in the education and
-        digital empowerment of women and girls, we aim to break cycles of
+        to education, technology, climte shocks, and economic empowerment, which hinder their
+        ability to reach their full potential. By investing in advocacy, education, awareness creation
+        financial literacy, and digital empowerment of women and girls, we aim to break cycles of
         inequality, build confidence, and create pathways to independence and
         leadership.
       </motion.p>

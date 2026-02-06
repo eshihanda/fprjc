@@ -18,6 +18,7 @@ import irene from '../assets/irene.png';
 import momi from '../assets/momi.png';
 import sara from '../assets/sara.png';
 import diana1 from '../assets/diana1.png';
+import hyrene from '../assets/hyrene.png';
 
 import { Link } from 'react-router-dom';
 
@@ -74,6 +75,11 @@ const Officers = [
     name: "Monica Eshihanda",
     title: "Human Resource and IT Officer",
     photo: momi,
+  },
+   {
+    name: "Irene Ogada",
+    title: "Procurement Officer",
+    photo: hyrene,
   },
   {
     name: "Bravine",

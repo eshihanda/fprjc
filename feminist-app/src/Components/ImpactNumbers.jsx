@@ -5,10 +5,10 @@ import '../Styles/ImpactNumbers.css';
 
 
 const numbers = [
-    {value: 1000, label:'Women empowered'},
-    {value: 600, label: 'Girls trained'},
+    {value: 10000, label:'Women empowered'},
+    {value: 500, label: 'Girls trained'},
     {value: 20, label: 'communities reached'},
-    {value:200, label:'projects completed'},
+    {value:500, label:'projects completed'},
 ];
 const ImpactNumbers = () => {
   return (

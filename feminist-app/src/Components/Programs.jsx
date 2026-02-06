@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/Programs.css'
 import pillar1 from '../assets/pillar1.png'
 import pillar2 from '../assets/pillar2.png'
-import pillar3 from '../assets/pillar3.png'
+import climate1 from '../assets/climate1.png'
 
 const Programs = () => {
   return (
@@ -31,7 +31,7 @@ const Programs = () => {
 
             </div>
             <div className='program-card'>
-                <img src={pillar3} alt='leadership program' />
+                <img src={climate1} alt='climate program' />
                 <h3> Women's Climate Action and Livelihoods</h3>'
                 <p> To promote intersectional climate action by advocating for climate justice, building community resilience, and supporting inclusive livelihood development.
                 </p>

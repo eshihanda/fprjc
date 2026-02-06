@@ -1,45 +1,55 @@
 .partners-section {
   overflow: hidden;
-  position: relative;
 }
 
 .partner-slide {
+  width: 100%;
   overflow: hidden;
-  white-space: nowrap;
   position: relative;
 }
 
 .slide-track {
   display: flex;
-  animation: scroll 25s linear infinite;
-  width: calc(250px * 10);
+  width: max-content;
+  animation: scroll 20s linear infinite;
 }
 
 .slide {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 250px;
-  height: 100px;
-  padding: 10px;
+  min-width: 160px;
+  padding: 10px 20px;
 }
 
 .slide img {
-  max-height: 80px;
-  max-width: 150px;
+  height: 60px;
+  width: auto;
   object-fit: contain;
-
-  /* No grayscale + hover effects */
-  filter: none !important;
-  transition: none;
+  transition: transform 0.3s ease;
 }
 
-/* No hover grayscale */
 .slide img:hover {
-  filter: none !important;
+  transform: scale(1.08);
 }
 
-/* Continuous scroll animation */
+/* Show partner name below */
+.partner-name {
+  font-size: 0.85rem;
+  margin-top: 8px;
+  color: #6f42c1;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Special styling for FEMNET + Rise Up */
+.logo-large {
+  height: 80px !important;
+  width: auto !important;
+}
+
+/* Animation */
 @keyframes scroll {
   0% {
     transform: translateX(0);
