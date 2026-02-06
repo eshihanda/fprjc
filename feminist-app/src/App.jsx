@@ -26,6 +26,10 @@ import Donate from './Pages/Donate';
 import ImpactStoriesPage from './Pages/ImpactStoriesPage';
 import FounderBio from './Pages/FounderBio';
 
+import EveryDropCounts from "./Pages/EveryDropCounts";
+import ICTHubLaunch from "./Pages/IctHubLaunch";
+import FemPadProject from "./Pages/FemPadProject";
+
 const App = () => {
   return (
     <>
@@ -69,6 +73,13 @@ const App = () => {
         <Route path="/donate" element={<Donate />} />
         <Route path="/impact-stories" element={<ImpactStoriesPage />} />
         <Route path="/founder-bio" element={<FounderBio />} />
+
+        <Route path="/blog/every-drop-counts" element={<EveryDropCounts />} />
+        <Route path="/blog/ict-hub-launch" element={<ICTHubLaunch />} />
+        <Route path="/blog/fempad-project" element={<FemPadProject />} />
+
+
+
 
 
       </Routes>

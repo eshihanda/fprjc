@@ -37,7 +37,7 @@ const TopNav = () => {
              <Nav.Link href='our-impact' className='nav-link-custom'> Our Impact </Nav.Link>
 
             <NavDropdown title="Updates" id="updates-dropdown" className="nav-link-custom custom-dropdown">
-              <NavDropdown.Item href="/blog">Blog Posts</NavDropdown.Item>
+              <NavDropdown.Item href="/blog">News and Stories</NavDropdown.Item>
               <NavDropdown.Item href="/careers">Career Opportunities</NavDropdown.Item>
             </NavDropdown>
             
