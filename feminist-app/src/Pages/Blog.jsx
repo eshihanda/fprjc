@@ -151,7 +151,7 @@ const Blog = () => {
               </h4>
 
               <p className="text-muted mt-3" style={{ lineHeight: 1.7 }}>
-                In Kibera, access to technology is more than opportunity—it is power.
+                In Kibera, access to technology is more than opportunity; it is power.
                 Through the launch of our ICT Hub, girls and young women are gaining
                 digital skills to expand their horizons, improve employability, and
                 build confidence in leadership.
@@ -199,7 +199,7 @@ const Blog = () => {
               <p className="text-muted mt-3" style={{ lineHeight: 1.7 }}>
                 Menstrual health is a human right. Through the FEMPAD initiative, we
                 are producing high-quality, washable sanitary towels to support girls
-                and women in Kibera—reducing stigma, promoting dignity, and keeping
+                and women in Kibera; reducing stigma, promoting dignity, and keeping
                 girls in school.
               </p>
 
