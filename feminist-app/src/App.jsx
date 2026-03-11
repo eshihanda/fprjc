@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import TopNav from './Components/TopNav';
 import HeroSection from './Components/HeroSection';
+import Womensday from "./Components/Womensday";
 import Programs from './Components/Programs';
 import Why from './Components/Why';
 // import Activities from './Components/Activities';
@@ -42,6 +43,7 @@ const App = () => {
           element={
             <>
               <HeroSection />
+              <Womensday />
               <Programs />
               <Why />
                {/* <Activities />  */}
