@@ -5,6 +5,8 @@ import femnet from "../assets/femnet.png";
 import rfsu from "../assets/rfsu.png";
 import riseup from "../assets/riseup.png";
 import awdf from "../assets/awdf.png";
+import achgj from '../assets/achgj.png';
+import womankind from "../assets/womenkind-logo.svg";
 import "../Styles/OurPartners.css";
 
 const OurPartners = () => {
@@ -15,6 +17,9 @@ const OurPartners = () => {
     { img: rfsu, name: "RFSU" },
     { img: riseup, name: "Rise Up", className: "logo-large", showName: true },
     { img: awdf, name: "AWDF" },
+    { img: womankind, name: "Womankind" },
+    { img: achgj, name: "ACHGJ", className: "achgj-logo", showName: true },
+    
   ];
 
   return (
