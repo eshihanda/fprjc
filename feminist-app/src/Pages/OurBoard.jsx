@@ -4,6 +4,7 @@ import Footer from '../Components/Footer';
 
 import may from "../assets/may.png";
 import elvis from "../assets/elvis.png";
+import dama from '../assets/damaris.png';
 import dita1 from "../assets/dita1.jpeg";
 
 const boardMembers = [
@@ -35,14 +36,23 @@ const boardMembers = [
     `,
   },
   {
+    name: "Damaris Kariuki",
+    role: "Audit and Risk Management",
+    photo: dama,
+    bio: `
+      Damaris Kariuki is a gender and governance expert passionate about engaging in work that advances the rights and positioning of women in every sphere within society. She has experience in designing projects contributing to gender equality gains at a local and global level. 
+      She is also a dedicated transformational leader with a diverse set of skills such as Stakeholder Engagement, Financial Management, Strategic Communications and Policy Development. 
+      With an educational background in development studies, psychology and public policy, she has been able to work with distinguished civil society organizations, non-governmental institutions, and state agencies to create human centered programmes and policies that are inclusive, diverse, relevant, and most importantly successful! Outside of work, she enjoys a good reality show, a good book, exploring the outdoors, spending time with family & friends, and knitting. 
+    `,
+  },
+  {
     name: "Editar Ochieng",
     role: "Secretary ",
     photo: dita1,
     bio: `
       Editar Ochieng is a feminist, human rights advocate, and grassroots organizer dedicated 
       to advancing the rights and dignity of women and girls. As the Founder and Executive Director 
-      of FPRJC, she has led transformative programs addressing gender-based violence, access to justice, 
-      and women’s leadership.
+      of FPRJC, she has led transformative programs addressing gender-based violence, access to justice, and women’s leadership.
 
       Her work is rooted in lived experience and a deep commitment to creating safe, equitable, 
       and liberating spaces for marginalized groups.
