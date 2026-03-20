@@ -25,8 +25,11 @@ const AboutUs = () => {
                 FPRJC exists for the realization of a society free from all forms of gender-based
                 discrimination, where every individual, regardless of their gender, age, and identity can
                 thrive and reach their full potential.
+                Through advocacy and capacity building, we support communities to establish deep commitment to the promotion 
+                of human rights and the fight against inequalities and discrimination. 
               </p>
               <p className="text-muted">
+                We are the voice of the vulnerable and marginalized women, girls and other groups of different gender identities
                 We drive our change agenda by focusing on women’s health rights and well-being, women’s
                 leadership & governance, and women’s climate action and livelihoods development.
               </p>

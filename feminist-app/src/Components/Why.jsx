@@ -45,9 +45,6 @@ const Why = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.6, ease: "easeOut" }}
       >
-        <Link to="/about-us" className="btn-learn-more btn-golden">
-          Learn More
-        </Link>
       </motion.div>
     </section>
   );
