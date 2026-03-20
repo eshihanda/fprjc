@@ -61,9 +61,9 @@ const OurImpact = () => {
       <h2 style={{ fontFamily: "var(--font-heading)", fontWeight: "600", fontSize: "2rem", lineHeight: "1.6",
         textAlign: "center",
         color: "#3a1f5d", }} >
-        We imagine a feminist future where women, girls, and people of all genders 
-        live with equal rights, real freedom, and the power to shape their own lives.
-        A world where every person can thrive with joy, dignity, and choice — free from violence, discrimination, and limitation.
+        We are building a Feminist future where women and girls  from different diversities  feel safe, supported, and empowered. Through safe spaces, SRHR advocacy, feminist leadership and movement building, digital empowerment, livelihood development, and climate action, we are restoring dignity and opportunity. 
+        By fostering strong partnerships and amplifying voices through advocacy, we continue to drive meaningful, community-led change.  
+
       </h2>
     </div>
   </section>
@@ -74,9 +74,9 @@ const OurImpact = () => {
             lineHeight: "1.6",
             color: "#6f42c1", 
             textAlign: "center", }}>
-          In 2024/25, FPRJC achieved remarkable outcomes across its pillars, 
-          advancing gender equality, empowerment, and social justice for women, 
-          girls, and marginalized communities.
+          Our work is reflected in the transformative journeys of women and girls autonomy in our community. Women survivors are rebuilding their lives and establishing independent livelihoods, while others are returning to formal education to pursue new opportunities. 
+          Girls and women are stepping into leadership roles within their communities to make decisions, confidently shaping their futures. Through targeted business support, more women are gaining economic independence, strengthening not only their own resilience but also that of their families and communities.  
+
         </h2>
       </div>
   </section>
@@ -96,7 +96,7 @@ const OurImpact = () => {
             {/* Title */}
             <h2 style={{ fontFamily: "var(--font-heading)", color: "#6f42c1", fontWeight: "700",
                 marginBottom: "0.5rem",}} >
-              Women Earn and Save Money
+              Feminist Financial Freedom and Literacy
             </h2>
 
             {/* Purple Border Line */}
@@ -104,24 +104,12 @@ const OurImpact = () => {
                 marginBottom: "1.5rem", }} ></div>
 
             {/* Why it matters */}
-            <h5 style={{ color: "#333", fontFamily: "var(--font-heading)", marginBottom: "0.6rem", }} >
-              Why It Matters
-            </h5>
             <p
               style={{ fontFamily: "var(--font-body)", color: "#555", lineHeight: "1.7", marginBottom: "1.5rem", }} >
               Financial independence gives women control over their lives, increases household
               stability, and strengthens their ability to make personal and economic decisions.
               When women have reliable income and savings, they can better support their
               families, invest in opportunities, and break harmful cycles of dependency.
-            </p>
-
-            {/* What our women report */}
-            <h5 style={{ color: "#333", fontFamily: "var(--font-heading)", marginBottom: "0.6rem", }} >
-              What Our Women Report
-            </h5>
-            <p style={{ fontFamily: "var(--font-body)", color: "#555", lineHeight: "1.7", }} >
-              <strong style={{ color: "#6f42c1" }}>44%</strong> of women report an increase in their earnings,
-              and <strong style={{ color: "#6f42c1" }}>75%</strong> report an increase in their savings.
             </p>
           </Col>
         </Row>
@@ -135,15 +123,11 @@ const OurImpact = () => {
         <Col md={6} className="order-2 order-md-1">
           {/* Title */}
           <h2 style={{fontFamily: "var(--font-heading)",  color: "#6f42c1", fontWeight: "700", marginBottom: "0.5rem", }}  >
-            Women’s Health & Wellbeing
+            Sexual and Reproductive Health (SRHR) Advocacy
           </h2>
           {/* Purple Line */}
           <div style={{ width: "80px", height: "4px", backgroundColor: "#6f42c1", borderRadius: "4px", marginBottom: "1.5rem", }}
            ></div>
-          {/* Why It Matters */}
-          <h5 style={{ color: "#333", fontFamily: "var(--font-heading)", marginBottom: "0.6rem", }} >
-            Why It Matters
-          </h5>
 
           <p
             style={{ fontFamily: "var(--font-body)", color: "#555", lineHeight: "1.7", marginBottom: "1.5rem", }} >
@@ -151,16 +135,6 @@ const OurImpact = () => {
             women and gender-diverse persons can make informed decisions about their bodies,
             safety, and wellbeing. It reduces vulnerabilities and strengthens overall community
             health and resilience.
-          </p>
-
-          {/* What We Achieved */}
-          <h5 style={{ color: "#333", fontFamily: "var(--font-heading)", marginBottom: "0.6rem", }}  >
-            What Our Community Reports
-          </h5>
-
-          <p style={{ fontFamily: "var(--font-body)", color: "#555", lineHeight: "1.7", }} >
-            Improved access to reproductive health education, information, and services for  
-            <strong style={{ color: "#6f42c1" }}> 2,400 AGYW</strong> and persons of gender nonconformity.
           </p>
         </Col>
 
@@ -187,7 +161,7 @@ const OurImpact = () => {
         <Col md={6}>
           {/* Title */}
           <h2 style={{ fontFamily: "var(--font-heading)", color: "#6f42c1", fontWeight: "700", marginBottom: "0.5rem", }}  >
-            Women Leadership
+            Feminist Leadership
           </h2>
 
           {/* Purple Divider Line */}
@@ -195,26 +169,10 @@ const OurImpact = () => {
             style={{ width: "80px", height: "4px", backgroundColor: "#6f42c1", borderRadius: "4px", marginBottom: "1.5rem",
             }} ></div>
 
-          {/* Why It Matters */}
-          <h5 style={{ color: "#333", fontFamily: "var(--font-heading)", marginBottom: "0.6rem", }} >
-            Why It Matters
-          </h5>
-
           <p style={{ fontFamily: "var(--font-body)", color: "#555", lineHeight: "1.7", marginBottom: "1.5rem", }} >
             When women lead, communities thrive. Leadership skills give women and girls the
-            confidence, voice, and platforms they need to influence decisions, challenge
+            confidence, voice, autonomy, and platforms they need to influence decisions, challenge
             inequalities, and drive positive social transformation.
-          </p>
-
-          {/* What Our Women Report / Results */}
-          <h5 style={{ color: "#333", fontFamily: "var(--font-heading)", marginBottom: "0.6rem", }} >
-            Our Impact
-          </h5>
-
-          <p style={{ fontFamily: "var(--font-body)", color: "#555", lineHeight: "1.7", }} >
-            Hundreds of women and girls have strengthened their leadership abilities —
-            enhancing confidence, public speaking, decision-making, and participation in
-            community and civic processes.
           </p>
         </Col>
       </Row>
@@ -233,31 +191,10 @@ const OurImpact = () => {
           {/* Purple Line */}
           <div style={{ width: "80px", height: "4px", backgroundColor: "#6f42c1", borderRadius: "4px", marginBottom: "1.5rem", }}
            ></div>
-          {/* Why It Matters */}
-          <h5 style={{ color: "#333", fontFamily: "var(--font-heading)", marginBottom: "0.6rem", }} >
-            Why It Matters
-          </h5>
-
           <p
             style={{ fontFamily: "var(--font-body)", color: "#555", lineHeight: "1.7", marginBottom: "1.5rem", }} >
             Women in Kibra slums are disproportionately affected by climate change and related risks such as food insecurity
             and displacement. When they have access to climate smart opportunities and resources, communities become more resilient.
-          </p>
-
-          {/* What We Achieved */}
-          <h5 style={{ color: "#333", fontFamily: "var(--font-heading)", marginBottom: "0.6rem", }}  >
-            What Our Community Reports
-          </h5>
-
-          <p style={{ fontFamily: "var(--font-body)", color: "#555", lineHeight: "1.7", }} >
-             <span class="text-fprjcPurple font-semibold">•</span> 
-               Improved access to climate-smart economic strengthening initiatives for 
-             <span class="font-bold">200 women</span> running viable, green enterprises.
-          </p>
-          <p style={{ fontFamily: "var(--font-body)", color: "#555", lineHeight: "1.7", }} >
-             <span class="text-fprjcPurple font-semibold">•</span> 
-             Enhanced basic literacy, financial skills, and digital literacy among 
-             <span class="font-bold">1000 women and gender-diverse persons</span> through our community learning program.
           </p>
         </Col>
 

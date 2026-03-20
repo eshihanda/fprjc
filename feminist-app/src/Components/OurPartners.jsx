@@ -13,12 +13,12 @@ const OurPartners = () => {
   const logos = [
     { img: unfpa, name: "UNFPA" },
     { img: ohchr, name: "OHCHR" },
-    { img: femnet, name: "FEMNET", className: "logo-large", showName: true },
+    { img: femnet, name: "FEMNET", className: "logo-large", showName: false },
     { img: rfsu, name: "RFSU" },
-    { img: riseup, name: "Rise Up", className: "logo-large", showName: true },
+    { img: riseup, name: "Rise Up", className: "logo-large", showName: false },
     { img: awdf, name: "AWDF" },
     { img: womankind, name: "Womankind" },
-    { img: achgj, name: "ACHGJ", className: "achgj-logo", showName: true },
+    { img: achgj, name: "ACHGJ", className: "achgj-logo", showName: false },
     
   ];
 
