@@ -9,6 +9,9 @@ import dita1 from "../assets/dita1.jpeg";
 import thinji from '../assets/thinji.png';
 import jay from '../assets/jay.png';
 import cindy from '../assets/cynthia.png';
+import ogalo from '../assets/ogalo.png';
+
+
 
 
 const boardMembers = [
@@ -18,14 +21,31 @@ const boardMembers = [
     photo: may,
     bio: `
       Hon. Cecilia Ayot serves as the Board Chairperson and leads the strategy and investment 
-      portfolio of FPRJC. She is a deliberate feminist motivated by the desire to experience 
-      and bequeath a world where gender roles and rights are not shaped by misogynist ideas 
-      but by equitable and unbiased practices.
+      portfolio of FPRJC. She is a deliberate feminist whose motivation comes from a desire to experience and bequeath self and future generations of a world where gender roles and rights shall not be influenced by misogynist ideas but by a home and work practice that is cognizant and neutral to explicit biases. 
 
-      As a Member of the Nairobi County Assembly (MCA), she established strategic partnerships 
-      addressing gender-based issues and advancing gender equality among state and non-state actors.
-      She is a YALI alumna, co-author of several publications, and a respected voice 
-      on gender issues in national spaces.
+      As a previous elected Member of the Nairobi County Assembly (MCA) in Lainisaba ward, she established strategic partnerships addressing gender-based issues and advancing gender equality among state and non-state actors. She is an influencer, a member of the prestigious Young African Leaders Initiative (YALI), who has co-authored several articles in support of women’s rights, and a regular speaker on gender issues in the national platform.
+    `,
+  },
+  {
+    name: "Janet Oriedo",
+    role: "Partnership and Development",
+    photo: jay,
+    bio: `
+      Janet Ambiyo Oriedo is a strategic operations and partnerships leader with over 12 years of proven success in driving performance, building strong stakeholder relationships, and delivering sustainable business growth.
+      She is known for creating efficient operating structures, leading high-performing teams, and implementing practical solutions that improve service delivery, productivity, and customer satisfaction.
+       With a strong blend of leadership, commercial acumen, and people development, Janet brings energy, professionalism, and measurable impact to every role she undertakes.
+    `,
+  },
+  {
+    name: "Florence Ogalo",
+    role: "Ethics and Compliance",
+    photo: ogalo,
+    bio: `
+      Akinyi Ogalo is a lawyer by profession, a liberal and radical feminist, and an ally of the LGBTQI+ community. Akinyi has been a human rights advocate for the last 10 years. 
+      She has extensively worked in the community campaigning and advocating for gender equality, human dignity and feminist ideologies. 
+      She believes that all human beings were born free and equal thus nothing should justify the oppression of women and girls or any human being for that matter. 
+
+
     `,
   },
   {
@@ -50,6 +70,16 @@ const boardMembers = [
     `,
   },
   {
+    name: "Cynthia Nasambu",
+    role: "Resource Mobilization",
+    photo: cindy,
+    bio: `
+      Cynthia Nasambu is a Kenyan writer, communications professional, and youth advocate dedicated to storytelling for impact.
+      Cynthia is actively involved in community-based initiatives, using media, film, and the arts to amplify young voices and drive social change.
+      Through her work with youth-led programs and advocacy projects, she contributes to building informed, resilient communities while shaping narratives that inspire action and transformation.
+    `,
+  },
+  {
     name: "Thinji Wanjiku",
     role: "Feminist Leadership and Governance",
     photo: thinji,
@@ -61,37 +91,15 @@ const boardMembers = [
       Her work reflects a sustained commitment to inclusive, accountable, and rights-based systems.
     `,
   },
-   {
-    name: "Janet Oriedo",
-    role: "Partnership and Development",
-    photo: jay,
-    bio: `
-      Janet Ambiyo Oriedo is a strategic operations and partnerships leader with over 12 years of proven success in driving performance, building strong stakeholder relationships, and delivering sustainable business growth.
-      She is known for creating efficient operating structures, leading high-performing teams, and implementing practical solutions that improve service delivery, productivity, and customer satisfaction.
-       With a strong blend of leadership, commercial acumen, and people development, Janet brings energy, professionalism, and measurable impact to every role she undertakes.
-    `,
-  },
-   {
-    name: "Cynthia Nasambu",
-    role: "Resource Mobilization",
-    photo: cindy,
-    bio: `
-      Cynthia Nasambu is a Kenyan writer, communications professional, and youth advocate dedicated to storytelling for impact.
-      Cynthia is actively involved in community-based initiatives, using media, film, and the arts to amplify young voices and drive social change.
-      Through her work with youth-led programs and advocacy projects, she contributes to building informed, resilient communities while shaping narratives that inspire action and transformation.
-    `,
-  },
+   
   {
     name: "Editar Ochieng",
-    role: "Secretary ",
+    role: " Ex-officio and Secretary of the board ",
     photo: dita1,
     bio: `
       Editar Ochieng is a feminist, human rights advocate, and grassroots organizer dedicated 
       to advancing the rights and dignity of women and girls. As the Founder and Executive Director 
-      of FPRJC, she has led transformative programs addressing gender-based violence, access to justice, and women’s leadership.
-
-      Her work is rooted in lived experience and a deep commitment to creating safe, equitable, 
-      and liberating spaces for marginalized groups.
+      of FPRJC, she has led transformative programs addressing gender-based violence, access to justice, and women’s leadership. Her work is rooted in lived experience and a deep commitment to creating safe, equitable, and liberating spaces for marginalized groups.
     `,
   },
 ];
