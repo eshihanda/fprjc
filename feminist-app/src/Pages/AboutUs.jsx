@@ -45,45 +45,44 @@ const AboutUs = () => {
           </p>
         </div>
       </section>
-      {/* Why women */}
-      <section className='py-5 why-women-section'>
+      {/* Mission & Philosophy Section */}
+      <section className='py-5 mission-philosophy-section'>
         <Container>
-          <motion.small
-          className="section-subtitle"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-          >
-            WHY WOMEN?
-          </motion.small>
+          <Row className="align-items-center">
+            <Col md={6} className="mb-4 mb-md-0">
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+              >
+                <div className="p-4 h-100 rounded shadow" style={{ backgroundColor: "#9d4edd", color: "white" }}>
+                  <h3 className="fw-bold mb-3">Our Mission</h3>
+                  <p>
+                    {/* Replace this text with your actual mission statement */}
+                    We inspire and develop a generation of grassroot women to have a voice and ignite feminism leadership
+                    action for gender transformative change.
+                  </p>
+                </div>
+              </motion.div>
+            </Col>
 
-          <motion.h2
-          className="section-title"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-          >
-            We are Striving to Achieve Gender Equality, which is a Fundamental Human Right
-          </motion.h2>
-
-          <motion.p
-          className="section-text"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
-          >
-          For a long time, women in our communities have faced discrimination and
-          marginalization from all forms of life. Women face persistent barriers
-          to education, technology, climate shocks, and economic empowerment, which hinder their
-          ability to reach their full potential. By investing in advocacy, education, awareness creation, 
-          financial literacy and digital literacy of women and girls, we aim to break cycles of
-          inequality, build confidence, and create pathways to independence and
-          leadership. <br /> <br />
-          At FPRJC, our <strong>mission</strong> is to inspire and develop a generation of
-          grassroot women to have a voice and ignite feminism leadership action for gender 
-          transformative change. We are the voice of the vulnerable and marginalized women, 
-          girls and other groups of different gender identities.
-          </motion.p>
+            <Col md={6}>
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+              >
+                <div className="p-4 h-100 rounded shadow" style={{ backgroundColor: "white", color: "#1a1a1a", border: "2px solid #9d4edd" }}>
+                  <h3 className="fw-bold mb-3 text-purple">Our Philosophy</h3>
+                  <p>
+                    {/* Replace this text with your actual philosophy statement */}
+                    Human beings, irrespective of their gender, are unique and valuable, and should be treated with respect
+                    and dignity; women have the power to ignite possibilities within them and activate their own abilities to
+                    liberate, transform, and empower communities /</p>
+                </div>
+              </motion.div>
+            </Col>
+          </Row>
         </Container>
       </section>
       {/* Our values section */}

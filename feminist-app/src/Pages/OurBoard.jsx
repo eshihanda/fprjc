@@ -6,6 +6,10 @@ import may from "../assets/may.png";
 import elvis from "../assets/elvis.png";
 import dama from '../assets/damaris.png';
 import dita1 from "../assets/dita1.jpeg";
+import thinji from '../assets/thinji.png';
+import jay from '../assets/jay.png';
+import cindy from '../assets/cynthia.png';
+
 
 const boardMembers = [
   {
@@ -43,6 +47,38 @@ const boardMembers = [
       Damaris Kariuki is a gender and governance expert passionate about engaging in work that advances the rights and positioning of women in every sphere within society. She has experience in designing projects contributing to gender equality gains at a local and global level. 
       She is also a dedicated transformational leader with a diverse set of skills such as Stakeholder Engagement, Financial Management, Strategic Communications and Policy Development. 
       With an educational background in development studies, psychology and public policy, she has been able to work with distinguished civil society organizations, non-governmental institutions, and state agencies to create human centered programmes and policies that are inclusive, diverse, relevant, and most importantly successful! Outside of work, she enjoys a good reality show, a good book, exploring the outdoors, spending time with family & friends, and knitting. 
+    `,
+  },
+  {
+    name: "Thinji Wanjiku",
+    role: "Feminist Leadership and Governance",
+    photo: thinji,
+    bio: `
+      Thīnji Wanjikū serves as Board Member for Feminist Leadership and Governance at the Feminists for Peace, Rights and Justice Center (FPRJC), where she contributes to the organization’s strategic direction on gender-responsive governance, feminist leadership, and policy advocacy. 
+      She holds a Bachelor’s degree in Political Science and Armed Conflict and Peace Studies from the University of Nairobi and previously served as President of the Women Students Welfare Association (WOSWA) at the University of Nairobi.
+      Her leadership has been instrumental in advancing initiatives addressing gender-based violence and promoting sexual and reproductive health and rights within academic and community settings.
+      Thīnji brings to FPRJC a strong background in civic engagement and leadership development, with a focus on strengthening women’s and youth participation in governance.
+      Her work reflects a sustained commitment to inclusive, accountable, and rights-based systems.
+    `,
+  },
+   {
+    name: "Janet Oriedo",
+    role: "Partnership and Development",
+    photo: jay,
+    bio: `
+      Janet Ambiyo Oriedo is a strategic operations and partnerships leader with over 12 years of proven success in driving performance, building strong stakeholder relationships, and delivering sustainable business growth.
+      She is known for creating efficient operating structures, leading high-performing teams, and implementing practical solutions that improve service delivery, productivity, and customer satisfaction.
+       With a strong blend of leadership, commercial acumen, and people development, Janet brings energy, professionalism, and measurable impact to every role she undertakes.
+    `,
+  },
+   {
+    name: "Cynthia Nasambu",
+    role: "Resource Mobilization",
+    photo: cindy,
+    bio: `
+      Cynthia Nasambu is a Kenyan writer, communications professional, and youth advocate dedicated to storytelling for impact.
+      Cynthia is actively involved in community-based initiatives, using media, film, and the arts to amplify young voices and drive social change.
+      Through her work with youth-led programs and advocacy projects, she contributes to building informed, resilient communities while shaping narratives that inspire action and transformation.
     `,
   },
   {
