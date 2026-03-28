@@ -41,7 +41,7 @@ const boardMembers = [
     role: "Ethics and Compliance",
     photo: ogalo,
     bio: `
-      Akinyi Ogalo is a lawyer by profession, a liberal and radical feminist, and an ally of the LGBTQI+ community. Akinyi has been a human rights advocate for the last 10 years. 
+      Florence Ogalo is a lawyer by profession, a liberal and radical feminist, and an ally of the LGBTQI+ community. Akinyi has been a human rights advocate for the last 10 years. 
       She has extensively worked in the community campaigning and advocating for gender equality, human dignity and feminist ideologies. 
       She believes that all human beings were born free and equal thus nothing should justify the oppression of women and girls or any human being for that matter. 
 
@@ -53,7 +53,7 @@ const boardMembers = [
     role: "Program Quality and Compliance",
     photo: elvis,
     bio: `
-      Elvis Koskei is a Communications Specialist with over six years of experience in journalism, 
+      Elvis Kosgei is a Communications Specialist with over six years of experience in journalism, 
       media production, and strategic communication. He is deeply committed to advocating for 
       underrepresented communities, particularly women and girls, using storytelling as 
       a powerful tool for social justice.
@@ -94,7 +94,7 @@ const boardMembers = [
    
   {
     name: "Editar Ochieng",
-    role: " Ex-officio and Secretary of the board ",
+    role: " Ex-officio and Secretary of the Board ",
     photo: dita1,
     bio: `
       Editar Ochieng is a feminist, human rights advocate, and grassroots organizer dedicated 
@@ -130,8 +130,9 @@ const OurBoard = () => {
                 style={{
                   height: "320px",
                   width: "100%",
-                  objectFit: "cover",
-                  borderRadius: "12px"
+                  objectFit: "contain",
+                  borderRadius: "12px",
+                  backgroundColor: "#f5f5f5"
                 }}
               />
             </Col>
