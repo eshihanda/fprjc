@@ -1,8 +1,10 @@
 import React from 'react'
 import '../Styles/Programs.css'
 import pillar1 from '../assets/pillar1.png'
-import pillar2 from '../assets/pillar2.png'
+import pillar2 from '../assets/education.jpg'
 import climate1 from '../assets/climate1.png'
+
+import { Link } from "react-router-dom";
 
 const Programs = () => {
   return (
@@ -18,7 +20,7 @@ const Programs = () => {
                 <p> To promote women’s health rights and wellbeing through equitable access to health 
                     and wellness resources including reproductive health care and mental health information and services.
                 </p>
-                <a href='our-impact' className='learn-more'> Learn More </a>
+                <Link to="/pillar-1" className='learn-more'>Learn More</Link>
             </div>
             <div className='program-card'>
                 <img src={pillar2} alt='leadership program' />
@@ -27,7 +29,7 @@ const Programs = () => {
                     for intergenerational and intersectional dialogue, build solidarity and catalyze bold, transformative 
                     and ambitious action to achieve gender equality..
                 </p>
-                <a href='our-impact' className='learn-more'> Learn More </a>
+                <Link to="/pillar-2" className='learn-more'>Learn More</Link>
 
             </div>
             <div className='program-card'>
@@ -35,7 +37,7 @@ const Programs = () => {
                 <h3> Women's Climate Action and Livelihoods</h3>'
                 <p> To promote intersectional climate action by advocating for climate justice, building community resilience, and supporting inclusive livelihood development.
                 </p>
-                <a href='our-impact' className='learn-more'> Learn More </a>
+                <Link to="/pillar-3" className='learn-more'>Learn More</Link>
 
             </div>
         </div>
@@ -44,3 +46,4 @@ const Programs = () => {
 }
 
 export default Programs
+

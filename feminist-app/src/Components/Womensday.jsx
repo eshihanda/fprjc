@@ -8,14 +8,14 @@ const Womensday = () => {
     <section className="iwd-video-section py-5">
       <Container>
 
-        {/* Label */}
+        {/* Label
         <div className="text-center mb-3">
           <span className="iwd-label">
             International Women’s Month 2026
           </span>
-        </div>
+        </div> */}
 
-        {/* Title */}
+        {/* Title
         <Row className="justify-content-center text-center">
           <Col md={10} lg={8}>
             <div className="text-center mb-2">
@@ -34,7 +34,7 @@ const Womensday = () => {
               healthier neighborhoods in Kibera.
             </p>
           </Col>
-        </Row>
+        </Row> */}
 
         {/* Video */}
         <Row className="justify-content-center mt-4">

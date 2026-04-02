@@ -27,7 +27,7 @@
 .brand-name {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #6f42c1;
+  color: #5e1385;
   letter-spacing: -0.5px;
 }
 
@@ -37,9 +37,9 @@
 
 /* Higher specificity + Important*/
 .navbar-nav .nav-link-custom {
-  color: #6f42c1 !important;
+  color: #5e1385 !important;
   font-size: 1.15rem !important;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 12px;
   transition: all 0.3s ease;
 }
@@ -61,7 +61,7 @@
 ================================ */
 
 .custom-dropdown .dropdown-toggle {
-  color: #6f42c1 !important;
+  color: #5e1385 !important;
   font-size: 1.15rem !important;
   font-weight: 600;
 }

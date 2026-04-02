@@ -5,4 +5,5 @@ const Pillar2 = () => {
     <div>Pillar2</div>
   )
 }
-export default Pillar2;
+
+export default Pillar2

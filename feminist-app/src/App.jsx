@@ -26,6 +26,9 @@ import ContactUs from './Pages/ContactUs';
 import Donate from './Pages/Donate';
 import ImpactStoriesPage from './Pages/ImpactStoriesPage';
 import FounderBio from './Pages/FounderBio';
+import GBV from './Pages/GBV';
+import SRHR from './Pages/SRHR';
+import Wellbeing from './Pages/Wellbeing';
 
 import EveryDropCounts from "./Pages/EveryDropCounts";
 import ICTHubLaunch from "./Pages/IctHubLaunch";
@@ -61,10 +64,10 @@ const App = () => {
         <Route path="/our-team" element={<OurTeam />} />
         <Route path="/our-board" element={<OurBoard />} />
 
-        {/* Programmes */}
-        {/* <Route path="/pillar1" element={<Pillar1 />} />
-        <Route path="/pillar2" element={<Pillar2 />} />
-        <Route path="/pillar3" element={<Pillar3 />} /> */}
+        <Route path="/pillar-1" element={<Pillar1 />} />
+        <Route path="/pillar-2" element={<Pillar2 />} />
+        <Route path="/pillar-3" element={<Pillar3 />} /> 
+
 
         {/* Updates */}
         <Route path="/blog" element={<Blog />} />
@@ -79,6 +82,10 @@ const App = () => {
         <Route path="/blog/every-drop-counts" element={<EveryDropCounts />} />
         <Route path="/blog/ict-hub-launch" element={<ICTHubLaunch />} />
         <Route path="/blog/fempad-project" element={<FemPadProject />} />
+        <Route path='/programs/pillar-1/gbv' element={<GBV />}></Route>
+        <Route path='/programs/pillar-1/srhr' element={<SRHR />}></Route>
+        <Route path='/programs/pillar-1/wellbeing' element={<Wellbeing />}></Route>
+        
 
 
 

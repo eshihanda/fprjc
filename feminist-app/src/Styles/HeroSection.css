@@ -46,12 +46,12 @@
   transform: translate(-50%, 0); /* correct full centering */
   width: min(90%, 1200px); /* responsive and max width in one line */
   background: #ffffff;
-  color: #6f42c1;
+  color: #5e1385;
   text-align: center;
   padding: 2rem 2.5rem;
   border-radius: 18px;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 800;
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
   z-index: 10;
 }

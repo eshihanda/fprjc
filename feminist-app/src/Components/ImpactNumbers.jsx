@@ -13,7 +13,7 @@ const numbers = [
 const ImpactNumbers = () => {
   return (
     <section className='py-5 text-white'>
-        <Container className='bg-purple p-5 rounded'>
+        <Container style={{backgroundColor: '#5e1385'}} className='p-5 rounded'>
             <h2 className='text-center fw-bold mb-5'> Our Impact in Numbers</h2>
             <Row className='text-center'>
                 {numbers.map((item, index )=> (

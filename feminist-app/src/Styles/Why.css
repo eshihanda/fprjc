@@ -7,8 +7,8 @@
 }
 
 .section-subtitle {
-  color: #6f42c1;
-  font-weight: 600;
+  color: #5e1385;
+  font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -29,7 +29,7 @@
   display: block;
   width: 80px;
   height: 3px;
-  background: #6f42c1;
+  background: #5e1385;
   margin: 1rem auto 0 auto;
   border-radius: 2px;
 }

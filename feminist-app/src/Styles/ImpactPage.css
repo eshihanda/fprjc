@@ -1,6 +1,6 @@
 /* Purple header section */
 .impact-header {
-  background-color: #6f42c1;
+  background-color: #5e1385;
 }
 
 /* Sarah's story container */
@@ -23,14 +23,14 @@
 
 /* Purple text utility */
 .text-purple {
-  color: #6f42c1;
+  color: #5e1385;
 }
 
 /* Horizontal line styling */
 .sarah-story-container hr {
   border: none;
   height: 2px;
-  background-color: #6f42c1;
+  background-color: #5e1385;
   margin-top: 0.5rem;
 }
 

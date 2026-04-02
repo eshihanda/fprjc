@@ -1,0 +1,18 @@
+.gbv-card {
+  background: #f9f7fc;
+  padding: 25px;
+  border-radius: 12px;
+  height: 100%;
+  transition: 0.3s ease;
+  border-left: 4px solid #5e1385;
+}
+
+.gbv-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.gbv-card h4 {
+  color: #5e1385;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,19 @@
+.srhr-card {
+  background: #f9f7fc;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  border-top: 4px solid #5e1385;
+  transition: 0.3s ease;
+}
+
+.srhr-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.srhr-card h5 {
+  color: #333;
+  font-weight: 600;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
-import about1 from '../assets/about1.png';
+import about from '../assets/about2.png';
 import '../Styles/About.css';
 
 import AboutHero from '../Components/AboutHero';
@@ -16,7 +16,7 @@ const AboutUs = () => {
         <Container>
           <Row className='align-items-center'>
             <Col md={6} className='mb-4 mb-md-0'>
-            <img src={about1} alt="kibera community" className='img-fluid rounded shadow w-100'
+            <img src={about} alt="kibera community" className='img-fluid rounded shadow w-100'
             style={{ height: "420px", width: "100%", objectFit: "cover" }}/>
             </Col>
             <Col md={6}>

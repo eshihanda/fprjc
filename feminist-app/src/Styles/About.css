@@ -28,8 +28,8 @@
 }
 
 .value-card:hover {
-  background-color: #8b2ae5; /* Purple */
+  background-color: #5e1385; /* Purple */
   transform: translateY(-5px);
-  border-color: #8b2ae5;
+  border-color: #5e1385;
   color: #fff !important; 
 }

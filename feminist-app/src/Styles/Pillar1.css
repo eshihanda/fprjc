@@ -1,0 +1,67 @@
+.pillar-section {
+  padding: 60px 8%;
+  background: #fff;
+}
+
+.pillar-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pillar-header h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.pillar-header p {
+  color: #666;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* GRID */
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* CARD */
+.pillar-card {
+  position: relative;
+  height: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* IMAGE */
+.pillar-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 🔥 fixes cutting issue */
+  transition: transform 0.4s ease;
+}
+
+/* HOVER EFFECT */
+.pillar-card:hover img {
+  transform: scale(1.08);
+}
+
+/* OVERLAY */
+.pillar-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.pillar-overlay h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+}
