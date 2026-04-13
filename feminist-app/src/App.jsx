@@ -30,6 +30,14 @@ import GBV from './Pages/GBV';
 import SRHR from './Pages/SRHR';
 import Wellbeing from './Pages/Wellbeing';
 
+import Mentorship from './Pages/Mentorship'; 
+import Movement from './Pages/Movement'; 
+import WomenPeace from './Pages/WomenPeace'; 
+import WomenTech from './Pages/WomenTech'; 
+import CivicEducation from './Pages/CivicEducation'; 
+
+
+
 import EveryDropCounts from "./Pages/EveryDropCounts";
 import ICTHubLaunch from "./Pages/IctHubLaunch";
 import FemPadProject from "./Pages/FemPadProject";
@@ -85,6 +93,12 @@ const App = () => {
         <Route path='/programs/pillar-1/gbv' element={<GBV />}></Route>
         <Route path='/programs/pillar-1/srhr' element={<SRHR />}></Route>
         <Route path='/programs/pillar-1/wellbeing' element={<Wellbeing />}></Route>
+
+        <Route path="/programs/mentorship" element={<Mentorship />} />
+        <Route path="/programs/movement" element={<Movement />} />
+        <Route path="/programs/womenpeace" element={<WomenPeace />} />
+        <Route path="/programs/womentech" element={<WomenTech />} />
+        <Route path="/programs/civic-education" element={<CivicEducation />} />
         
 
 

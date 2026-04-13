@@ -113,7 +113,7 @@ const GBV = () => {
           <Row>
             <Col md={10}>
               <h3 className="fw-bold mb-3" style={{ color: " #5e1385" }}>
-                Our Solutions & Interventions
+                Our Solutions and Interventions
               </h3>
 
               <ul style={{ lineHeight: "1.9", fontSize: "1.05rem" }}>

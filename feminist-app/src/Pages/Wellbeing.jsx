@@ -95,7 +95,7 @@ const Wellbeing = () => {
           <Row>
             <Col md={10}>
               <h3 className="fw-bold mb-3" style={{ color: "#5e1385" }}>
-                Our Services & Support Systems
+                Our Services and Support Systems
               </h3>
 
               <ul style={{ lineHeight: "1.9", fontSize: "1.05rem" }}>
