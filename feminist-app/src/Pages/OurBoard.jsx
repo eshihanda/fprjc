@@ -50,13 +50,11 @@ const boardMembers = [
   },
   {
     name: "Elvis Kosgei",
-    role: "Program Quality and Compliance",
+    role: "Program Quality and Brand Management",
     photo: elvis,
     bio: `
-      Elvis Kosgei is a Communications Specialist with over six years of experience in journalism, 
-      media production, and strategic communication. He is deeply committed to advocating for 
-      underrepresented communities, particularly women and girls, using storytelling as 
-      a powerful tool for social justice.
+      Elvis Kosgei is a Communications Specialist with over six years of experience in journalism, media production, and strategic communication. He has built a diverse portfolio working
+      with various organizations, including the Institute of Human Resource Management (IHRM), where he currently serves as a Communications Officer. Elvis is deeply committed to advocating for underrepresented communities, particularly women and girls, using storytelling as a powerful tool for social justice.
     `,
   },
   {
