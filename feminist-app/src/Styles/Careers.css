@@ -56,3 +56,29 @@
   color: #777;
   margin-bottom: 20px;
 }
+.consultancy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.consultancy-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.consultancy-card h4 {
+  color: #5e1385;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.vacancy-meta {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}

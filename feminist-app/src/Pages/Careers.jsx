@@ -77,40 +77,48 @@ const Careers = () => {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 <section className="consultancy-section">
   <div className="container">
-    <h3 className="vacancies-title">Consultancy and Call for Proposals</h3>
+    <h3 className="vacancies-title">Consultancy Opportunities</h3>
 
-    <div className="consultancy-card">
-      <h4>
-        Consultancy for Organizational Capacity Strengthening on Advocacy, Policy Engagement, and Safeguarding
-      </h4>
+    <div className="consultancy-grid">
 
-      <p className="vacancy-meta">
-        Consultancy Opportunity | Nairobi / Remote
-      </p>
+      {/* TOR 1 */}
+      <div className="consultancy-card">
+        <h4>Training Women on Civic Literacy, Public Participation, and County Budgeting</h4>
+        <p className="vacancy-meta">Consultancy | Nairobi / Remote</p>
 
-      <p>
-        Feminist for Peace Rights and Justice Center invites qualified consultants
-        and firms to submit proposals for an organizational capacity strengthening
-        assignment focused on advocacy, policy engagement, and safeguarding.
-      </p>
+        <p>
+          We are seeking a consultant to support capacity strengthening
+          for women on civic literacy and governance systems.
+        </p>
 
-      <div className="d-flex justify-content-center gap-3 mt-4">
-        <a
-            href="/Tor.pdf"
-            target="_blank"
-            className="btn btn-golden mb-3"
-          >
-            Download TOR
-          </a>
+        <a href="/Tor-civic.pdf" target="_blank" className="btn btn-golden">
+          Download TOR
+        </a>
       </div>
+
+      {/* TOR 2 */}
+      <div className="consultancy-card">
+        <h4>Project Objectives, Implementation, Strategies, and Roles</h4>
+        <p className="vacancy-meta">Consultancy | Nairobi / Remote</p>
+
+        <p>
+          We are looking for a consultant to deliver training on project framework, including implementation strategies,
+          MEAL, and feminist leadership.
+        </p>
+
+        <a href="/Tor-project.pdf" target="_blank" className="btn btn-golden">
+          Download TOR
+        </a>
+      </div>
+
     </div>
   </div>
-</section> */}
+</section>
  {/* NO VACANCIES SECTION */}
-<section className="vacancies-section">
+{/* <section className="vacancies-section">
   <div className="container text-center">
     <h3 className="vacancies-title">Current Openings</h3>
 
@@ -154,7 +162,7 @@ const Careers = () => {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 <Footer />
 </>
   )

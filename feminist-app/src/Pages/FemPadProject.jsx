@@ -67,31 +67,38 @@ const FemPadProject = () => {
                   borderLeft: "6px solid #6f42c1",
                 }}
               >
-                <p style={{ fontSize: "1.15rem", lineHeight: 1.9, color: "#444" }}>
-                  At FPRJC, we are proud to champion menstrual dignity through our Periods of Power initiative an empowering program
-                  that trains women to produce high-quality, washable sanitary towels. Made by women for girls, women, intersex persons, and all who menstruate,
-                  these reusable pads offer a sustainable, dignified alternative for our community. With a target of producing 100 durable, KEBS-standard reusable pads,
-                  our goal is to support vulnerable menstruators in Kibera with a reliable, eco-friendly option. 
+               <p style={{ fontSize: "1.15rem", lineHeight: 1.9, color: "#444" }}>
+                  Menstrual health is a human right, yet for millions of girls and women, it remains out of reach. 
+                  According to <a href="https://www.unicef.org/wash/menstrual-hygiene" target="_blank" rel="noopener noreferrer">UNICEF</a>, 
+                  lack of access to menstrual products, safe sanitation, and accurate information continues to limit education, health, and dignity for girls worldwide. 
+                  In informal settlements like Kibera, these challenges are even more severe, where poverty, stigma, and limited resources force many to miss school, 
+                  risk their safety, or use unsafe alternatives during their periods.
                 </p>
 
                 <p style={{ fontSize: "1.05rem", lineHeight: 1.9, color: "#555" }}>
-                  Beyond affordability, these products help reduce dependence on disposable pads, protect the environment, 
-                  and minimize risks of gender-based violence associated with lack of menstrual products. FEMPad is our bold step toward ending period poverty 
-                  and restoring dignity for girls, women, and all who menstruate in underserved communities. 
+                  Through our <strong>FemPad Initiative</strong>, FPRJC is taking action to end period poverty by producing 
+                  <strong> 1000 reusable, KEBS-standard sanitary pads</strong> for girls, women, intersex persons, and all who menstruate. 
+                  These pads are not just products; they are a pathway to dignity, confidence, and opportunity. 
+                  Reusable and eco-friendly, they provide a sustainable solution that reduces long-term costs while protecting the environment.
                 </p>
 
                 <p style={{ fontSize: "1.05rem", lineHeight: 1.9, color: "#555" }}>
-                    Designed under the Feminist for Peace, Rights and Justice Centre (FPRJC), FEMPad provides a safe, reliable, and empowering menstrual solution 
-                    for those who often face stigma, limited access, and financial barriers during their cycles. Each pack is a symbol of care and justice a reminder 
-                    that menstrual health is not a luxury but a fundamental right. Through FEMPad, we are not only meeting a need; we are breaking silence, strengthening confidence, 
-                    and ensuring that every menstruator can move through life with comfort, pride, and dignity.
+                  Evidence shows that access to menstrual health solutions directly impacts education outcomes. 
+                  The <a href="https://www.unesco.org/en/gender-equality/education/menstrual-health" target="_blank" rel="noopener noreferrer">UNESCO</a> 
+                  reports that many girls miss school during menstruation due to lack of proper products and facilities, 
+                  contributing to long-term educational inequality. In Kibera, this reality plays out daily, where a lack of menstrual supplies 
+                  can mean lost opportunities, reduced confidence, and increased vulnerability to gender-based violence.
                 </p>
 
+                <p style={{ fontSize: "1.05rem", lineHeight: 1.9, color: "#555" }}>
+                  But FemPad goes beyond distribution. This initiative also trains women to produce high-quality reusable pads, 
+                  creating income-generating opportunities and strengthening local capacity. By investing in women-led solutions, 
+                  we are building a model that is not only sustainable but also rooted in community empowerment and feminist leadership.
+                </p>
 
                 <p style={{ fontSize: "1.05rem", lineHeight: 1.9, color: "#555" }}>
-                  But this work is about more than pads. It is about restoring dignity, building skills, and breaking the silence
-                  that fuels period shame. By equipping local women with hands-on training and income-generating skills, 
-                  we are nurturing confidence, sustainability, and community-driven change.
+                  Your support can help us reach our goal and directly impact lives. A single contribution helps ensure that a girl stays in school, 
+                  a woman regains her dignity, and a community moves closer to equality. Ending period poverty is not just about access, it is about justice.
                 </p>
 
                 <div
@@ -104,6 +111,28 @@ const FemPadProject = () => {
                 >
                   Together, we are rewriting the narrative because periods are power, and everyone
                   deserves to menstruate with dignity, safety, and pride.
+                </div>
+                <div
+                  className="mt-4 p-4 rounded"
+                  style={{
+                    backgroundColor: "#f5f5f5",
+                    borderLeft: "5px solid #e5880e",
+                    fontWeight: "600",
+                  }}
+                >
+                  💜 Join us in ending period poverty in Kibera. Support the FemPad Initiative today and help restore dignity, 
+                  opportunity, and hope for girls and women.
+                </div>
+
+                <div className="text-center mt-4">
+                  <a
+                    href="https://www.mchanga.africa/fundraiser/120648"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-golden px-4 py-2 fw-bold"
+                  >
+                    Donate to the FemPad Campaign
+                  </a>
                 </div>
 
                 <div className="text-center mt-5">
