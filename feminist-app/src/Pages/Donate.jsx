@@ -32,8 +32,8 @@ const Donate = () => {
             </h5>
 
             <p className="mb-2">
-              We are currently raising funds to produce{" "}
-              <strong>1000 reusable, KEBS-standard sanitary pads</strong> for
+              We are currently raising funds to distribute{" "}
+              <strong>100 dignity packs</strong> for
               girls, women, and all who menstruate in Kibera.
             </p>
 
