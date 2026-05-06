@@ -52,6 +52,84 @@ const Blog = () => {
         </Row>
       </Container>
     </section>
+    <section
+      style={{
+        background: "linear-gradient(135deg, #5e1385, #9c75e4)",
+        padding: "3rem 0",
+        color: "#fff",
+      }}
+    >
+      <Container>
+        <Row className="align-items-center">
+
+          {/* TEXT */}
+          <Col md={8}>
+            <Badge
+              className="mb-3"
+              style={{
+                backgroundColor: "#e5880e",
+                fontSize: "0.85rem",
+                padding: "0.5rem 0.9rem",
+              }}
+            >
+              LIVE CAMPAIGN
+            </Badge>
+
+            <h2 className="fw-bold">
+              End Period Poverty in Kibera
+            </h2>
+
+            <p className="mt-3" style={{ fontSize: "1.05rem", lineHeight: 1.7 }}>
+              We are raising funds to produce <strong>1000 reusable sanitary pads</strong> 
+              for girls and women in Kibera and distribute <strong>100 dignity packs</strong>. Your support helps restore dignity, keep girls 
+              in school, and provide a sustainable solution to menstrual health challenges.
+            </p>
+
+            <div className="mt-4 d-flex flex-wrap gap-3">
+              <Button
+                as={Link}
+                to="/blog/fempad-project"
+                style={{
+                  backgroundColor: "#fff",
+                  color: "#5e1385",
+                  border: "none",
+                  fontWeight: "600",
+                }}
+              >
+                Learn More
+              </Button>
+
+              <a
+                href="https://www.mchanga.africa/fundraiser/120648"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-golden fw-bold"
+              >
+                Donate Now
+              </a>
+            </div>
+          </Col>
+
+          {/* OPTIONAL VISUAL SIDE */}
+          <Col md={4} className="d-none d-md-block text-center">
+            <div
+              style={{
+                background: "rgba(255,255,255,0.1)",
+                padding: "1.5rem",
+                borderRadius: "12px",
+                backdropFilter: "blur(5px)",
+              }}
+            >
+              <h4 className="fw-bold">Target</h4>
+              <p style={{ fontSize: "1.2rem", marginBottom: 0 }}>
+                1000 Pads
+              </p>
+            </div>
+          </Col>
+
+        </Row>
+      </Container>
+    </section>
 
     <section className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
       <Container>
@@ -193,7 +271,7 @@ const Blog = () => {
               </Badge>
 
               <h4 className="fw-bold">
-                FEMPAD Project: Washable Sanitary Towels Restoring Dignity
+                End Periods Poverty in kibera
               </h4>
 
               <p className="text-muted mt-3" style={{ lineHeight: 1.7 }}>

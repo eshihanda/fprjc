@@ -29,7 +29,7 @@ const FemPadProject = () => {
                 Advocacy & Storytelling
               </Badge>
 
-              <h1 className="fw-bold display-4">Ending Periods Poverty in Kibera</h1>
+              <h1 className="fw-bold display-4">End Period Poverty in Kibera</h1>
 
               <p className="lead mt-3" style={{ color: "#f3f3f3" }}>
                 Having reliable access to safe, affordable, and reusable sanitary products means girls and women 
