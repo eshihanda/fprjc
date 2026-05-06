@@ -113,6 +113,48 @@ const Careers = () => {
           Download TOR
         </a>
       </div>
+      {/* TOR 3 */}
+      <div className="consultancy-card">
+        <h4>Digital Safety and Online Gender-based Violence Expert</h4>
+        <p className="vacancy-meta">Consultancy | Nairobi / Remote</p>
+
+        <p>
+          We are looking for a consultant to deliver training on digital safety, privacy, and protection strategies
+          as well as understanding of online gender-based violence and its link to offline conflict and political violence.
+        </p>
+
+        <a href="/Tor-digital.pdf" target="_blank" className="btn btn-golden">
+          Download TOR
+        </a>
+      </div>
+      {/* TOR 4 */}
+      <div className="consultancy-card">
+        <h4>Sign Language Interpretation and Translation Support</h4>
+        <p className="vacancy-meta">Consultancy | Nairobi / Remote</p>
+
+        <p>
+          FPRJC is looking for professional sign language interpreters and translation support providers to support a forum
+          that will engage 50 grassroot women, women rights defenders, young feminist leaders, and persons with disabilities to strengthen digital safety
+          and counter online gender-based violence.
+        </p>
+
+        <a href="/Tor-sign.pdf" target="_blank" className="btn btn-golden">
+          Download TOR
+        </a>
+      </div>
+      {/* TOR 5 */}
+      <div className="consultancy-card">
+        <h4>Publications(Development, Graphic Design, and Printing)</h4>
+        <p className="vacancy-meta">Consultancy | Nairobi / Remote</p>
+
+        <p>
+          FPRJC is looking for a publication consultant to help develop high quality advocacy and communications materials aligned with the project.
+        </p>
+
+        <a href="/Tor-pub.pdf" target="_blank" className="btn btn-golden">
+          Download TOR
+        </a>
+      </div>
 
     </div>
   </div>

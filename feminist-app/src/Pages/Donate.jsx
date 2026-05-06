@@ -50,7 +50,7 @@ const Donate = () => {
             rel="noopener noreferrer"
             className="btn btn-golden w-100"
           >
-            Donate to FemPad Campaign
+            Donate to End Periods Poverty Campaign
           </a>
 
           {/* TRUST TEXT */}
