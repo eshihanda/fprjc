@@ -84,6 +84,29 @@ const Careers = () => {
 
     <div className="consultancy-grid">
 
+      <div className="consultancy-card">
+        <h4>Call for Applications: Women’s Civic Education Training</h4>
+
+        <p className="vacancy-meta">Training Opportunity | Kibera / Community-Based</p>
+
+        <p>
+          Feminist for Peace Rights and Justice Center invites applications from women,
+          girls, and community advocates interested in strengthening civic knowledge,
+          human rights awareness, and democratic participation.
+        </p>
+
+        <div className="d-flex justify-content-center mt-4">
+          <a
+            href="https://forms.gle/eQwttHRy4wdG5ADD9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-golden fw-bold"
+          >
+            Apply Here
+          </a>
+        </div>
+      </div>
+
       {/* TOR 1 */}
       <div className="consultancy-card">
         <h4>Training Women on Civic Literacy, Public Participation, and County Budgeting</h4>
