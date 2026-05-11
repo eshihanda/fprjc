@@ -10,7 +10,7 @@ const MothersDay = () => {
       {/* Blog Hero */}
       <section
         style={{
-          background: "linear-gradient(135deg, #6f42c1, #eee9f1ff)",
+          background: "linear-gradient(135deg, #0e051e, #eee9f1ff)",
           padding: "5rem 0",
           color: "#fff",
         }}
