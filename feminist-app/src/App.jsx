@@ -41,6 +41,8 @@ import CivicEducation from './Pages/CivicEducation';
 import EveryDropCounts from "./Pages/EveryDropCounts";
 import ICTHubLaunch from "./Pages/IctHubLaunch";
 import FemPadProject from "./Pages/FemPadProject";
+import MothersDay from './Pages/MothersDay';
+import FemiNgarisha from './Pages/FemiNgarisha';
 
 const App = () => {
   return (
@@ -90,6 +92,10 @@ const App = () => {
         <Route path="/blog/every-drop-counts" element={<EveryDropCounts />} />
         <Route path="/blog/ict-hub-launch" element={<ICTHubLaunch />} />
         <Route path="/blog/fempad-project" element={<FemPadProject />} />
+        <Route path="/blog/mothers-day" element={<MothersDay />} />
+        <Route path="/blog/femi-ngarisha" element={<FemiNgarisha />} />
+
+
         <Route path='/programs/pillar-1/gbv' element={<GBV />}></Route>
         <Route path='/programs/pillar-1/srhr' element={<SRHR />}></Route>
         <Route path='/programs/pillar-1/wellbeing' element={<Wellbeing />}></Route>
