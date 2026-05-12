@@ -94,7 +94,7 @@ const Assistants = [
     photo: diana,
   },
   {
-    name: "Queenter Andolo",
+    name: "Queenter Anyango",
     title: "Assistant Admin Officer",
     photo: andolo,
   },

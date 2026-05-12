@@ -106,6 +106,35 @@ const Careers = () => {
           </a>
         </div>
       </div>
+      <div className="consultancy-card">
+        <h4>Call for Applications: Volunteer Communications Intern</h4>
+
+        <p className="vacancy-meta">Internship Opportunity | Kibera / Community-Based</p>
+
+        <p>
+          FPRJC is seeking a passionate, creative, and committed volunteer communications intern
+          to support the organization's communication, visibility, advocacy, and digital engagement efforts. The internship presents an opportunity for young feminists, creatives, and communication enthusiasts
+          to gain hands-on experience working within a feminist and human rights organization.
+        </p>
+
+        <a href="/Tor-communications.pdf" target="_blank" className="btn btn-golden">
+          Apply Here
+        </a>
+      </div>
+      <div className="consultancy-card">
+        <h4>Call for Applications: Volunteer Intern Project Coordinator- Women Climate Action and livelihood development</h4>
+
+        <p className="vacancy-meta">Internship Opportunity | Kibera / Community-Based</p>
+
+        <p>
+          Feminist for Peace Rights and Justice Center is seeking a passionate, creative, and committed volunteer intern project coordinator - women climate action and livelihood development
+          to to support the planning, coordination, implementation, and documentation of projects under the Women Climate Action and Livelihood Development thematic area.
+        </p>
+
+        <a href="/Tor-climate.pdf" target="_blank" className="btn btn-golden">
+          Apply Here
+        </a>
+      </div>
 
       {/* TOR 1 */}
       <div className="consultancy-card">
