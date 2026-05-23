@@ -69,7 +69,7 @@ const Footer = () => {
                     © {new Date().getFullYear()} FPRJC. All rights reserved.
                 </p>
                 <p className='footer-tagline'>
-                    Handcrafted by yours truly; Monica.
+                    Handcrafted by yours truly; Meshihanda.
                 </p>
             </div>
         </div>
