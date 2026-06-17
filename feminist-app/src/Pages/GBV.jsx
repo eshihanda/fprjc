@@ -144,6 +144,35 @@ const GBV = () => {
               </p>
             </Col>
           </Row>
+          {/* RESOURCES & TOOLS */}
+          <Row className="mt-5">
+            <Col md={10}>
+              <h3 className="fw-bold mb-3" style={{ color: "#5e1385" }}>
+                Resources & Tools
+              </h3>
+
+              <ul style={{ lineHeight: "2", fontSize: "1.05rem" }}>
+                <li>
+                  <a
+                    href="/advocacy-toolkit"
+                    style={{
+                      color: "#5e1385",
+                      fontWeight: "600",
+                      textDecoration: "none",
+                    }}
+                  >
+                    Child Protection and Safeguarding Advocacy Toolkit
+                  </a>
+                </li>
+              </ul>
+
+              <p className="text-muted">
+                Access practical resources developed to strengthen advocacy,
+                safeguarding, child protection, and community-led responses to
+                gender-based violence.
+              </p>
+            </Col>
+          </Row>
         </Container>
       </section>
 

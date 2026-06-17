@@ -43,6 +43,7 @@ import ICTHubLaunch from "./Pages/IctHubLaunch";
 import FemPadProject from "./Pages/FemPadProject";
 import MothersDay from './Pages/MothersDay';
 import FemiNgarisha from './Pages/FemiNgarisha';
+import AdvocacyToolkit from "./Pages/AdvocacyToolkit";
 
 const App = () => {
   return (
@@ -105,6 +106,7 @@ const App = () => {
         <Route path="/programs/womenpeace" element={<WomenPeace />} />
         <Route path="/programs/womentech" element={<WomenTech />} />
         <Route path="/programs/civic-education" element={<CivicEducation />} />
+        <Route path="/advocacy-toolkit" element={<AdvocacyToolkit />} />
         
 
 
