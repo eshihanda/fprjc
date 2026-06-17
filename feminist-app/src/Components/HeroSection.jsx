@@ -5,11 +5,6 @@ const HeroSection = () => {
   return (
     <section className='landing-hero'>
 
-      {/* Small organization badge */}
-      <div className="hero-badge">
-        Feminist for Peace, Rights and Justice Centre
-      </div>
-
       {/* MISSION BAR */}
       <div className="mission-bar">
         <p>
