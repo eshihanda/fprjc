@@ -11,6 +11,7 @@ import ImpactStories from './Components/ImpactStories';
 import Footer from './Components/Footer';
 import OurPartners from './Components/OurPartners';
 import ImpactNumbers from './Components/ImpactNumbers';
+import Analytics from "./Components/Analytics";
 
 // Main Pages
 import AboutUs from './Pages/AboutUs';
@@ -48,6 +49,7 @@ import AdvocacyToolkit from "./Pages/AdvocacyToolkit";
 const App = () => {
   return (
     <>
+      <Analytics />
       <TopNav />
 
       <Routes>
