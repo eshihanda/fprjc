@@ -5,7 +5,7 @@
   width: 100vw;
   margin-left: calc(-50vw + 50%);
 
-  background: url("../assets/hero2.png") center center/cover no-repeat;
+  background: url("../assets/hero1.png") center center/cover no-repeat;
 
   overflow: visible;
   margin-bottom: 120px; /* space for mission bar */

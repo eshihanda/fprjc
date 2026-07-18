@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Router } from 'react-router-dom';
 
 import TopNav from './Components/TopNav';
 import HeroSection from './Components/HeroSection';
@@ -45,6 +45,7 @@ import FemPadProject from "./Pages/FemPadProject";
 import MothersDay from './Pages/MothersDay';
 import FemiNgarisha from './Pages/FemiNgarisha';
 import AdvocacyToolkit from "./Pages/AdvocacyToolkit";
+import Livelihood from './Pages/Livelihood';
 
 const App = () => {
   return (
@@ -97,6 +98,7 @@ const App = () => {
         <Route path="/blog/fempad-project" element={<FemPadProject />} />
         <Route path="/blog/mothers-day" element={<MothersDay />} />
         <Route path="/blog/femi-ngarisha" element={<FemiNgarisha />} />
+        <Route path='/blog/livelihood' element={<Livelihood />} />
 
 
         <Route path='/programs/pillar-1/gbv' element={<GBV />}></Route>
