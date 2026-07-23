@@ -1,0 +1,122 @@
+.resources-hero {
+
+  background:#f8f5fb;
+
+  padding:80px 0;
+
+  text-align:center;
+
+}
+
+
+.resources-hero h1 {
+
+  color:#5e1385;
+
+  font-size:3rem;
+
+  font-weight:800;
+
+}
+
+
+.resources-hero p {
+
+  max-width:750px;
+
+  margin:20px auto;
+
+  font-size:1.15rem;
+
+  line-height:1.8;
+
+  color:#555;
+
+}
+
+
+
+.resources-section {
+
+  padding:70px 0;
+
+}
+
+
+
+.resource-card {
+
+  border:none;
+
+  border-radius:18px;
+
+  padding:20px;
+
+  height:100%;
+
+  box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+  transition:.3s ease;
+
+}
+
+
+.resource-card:hover {
+
+  transform:translateY(-8px);
+
+}
+
+
+
+.resource-category {
+
+  display:inline-block;
+
+  background:#f0e4f7;
+
+  color:#5e1385;
+
+  padding:6px 15px;
+
+  border-radius:20px;
+
+  font-size:.85rem;
+
+  font-weight:700;
+
+  margin-bottom:15px;
+
+}
+
+
+
+.resource-card h5 {
+
+  color:#333;
+
+  font-weight:700;
+
+}
+
+
+
+.resource-btn {
+
+  background:#5e1385;
+
+  border:none;
+
+  border-radius:25px;
+
+  padding:10px 25px;
+
+}
+
+
+
+.resource-btn:hover {
+
+  background:#7a1fa2;
+
+}

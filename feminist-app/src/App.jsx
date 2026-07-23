@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route, Router } from 'react-router-dom';
 
+import TopHeader from "./Components/TopHeader";
 import TopNav from './Components/TopNav';
 import HeroSection from './Components/HeroSection';
 // import Womensday from "./Components/Womensday";
@@ -46,12 +47,14 @@ import MothersDay from './Pages/MothersDay';
 import FemiNgarisha from './Pages/FemiNgarisha';
 import AdvocacyToolkit from "./Pages/AdvocacyToolkit";
 import Livelihood from './Pages/Livelihood';
+import Resources from './Pages/Resources';
 
 const App = () => {
   return (
     <>
       <Analytics />
-      <TopNav />
+       <TopHeader />
+       <TopNav />
 
       <Routes>
         {/* Home Page */}
@@ -111,6 +114,7 @@ const App = () => {
         <Route path="/programs/womentech" element={<WomenTech />} />
         <Route path="/programs/civic-education" element={<CivicEducation />} />
         <Route path="/advocacy-toolkit" element={<AdvocacyToolkit />} />
+         <Route path="/resources" element={<Resources />} />
         
 
 

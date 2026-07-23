@@ -1,54 +1,79 @@
-/* MAIN HERO */
+/* ===========================
+   HERO SECTION
+=========================== */
+
 .landing-hero {
   position: relative;
   height: 100vh;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
+  margin-bottom: 120px;
 
-  background: url("../assets/hero1.png") center center/cover no-repeat;
+  background: url("../assets/about2.png") center center/cover no-repeat;
 
   overflow: visible;
-  margin-bottom: 120px; /* space for mission bar */
 }
 
-/* SUBTLE OVERLAY FOR IMAGE CONTRAST */
+/* DARK OVERLAY */
 .landing-hero::before {
   content: "";
   position: absolute;
   inset: 0;
 
   background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.25),
-    rgba(0, 0, 0, 0.05)
+    to right,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.45)
   );
 
   z-index: 1;
 }
 
-/* ORGANIZATION BADGE */
-.hero-badge {
+/* ===========================
+   HERO CONTENT
+=========================== */
+
+.hero-overlay {
   position: absolute;
-  top: 30px;
-  left: 40px;
+  inset: 0;
+  z-index: 2;
 
-  background: rgba(255, 255, 255, 0.92);
-  color: #5e1385;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 
-  padding: 10px 18px;
-  border-radius: 30px;
-
-  font-size: 0.9rem;
-  font-weight: 700;
-
-  backdrop-filter: blur(8px);
-
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-
-  z-index: 5;
+  padding-right: 10%;
+  padding-left: 5%;
 }
 
-/* MISSION BAR */
+.hero-content {
+  width: 520px;
+  max-width: 520px;
+
+  text-align: left;
+  color: white;
+
+  margin-top: -80px; /* moves it higher */
+}
+
+.hero-content h1 {
+  font-size: clamp(3.2rem, 5vw, 5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* ===========================
+   MISSION BAR
+=========================== */
+
 .mission-bar {
   position: absolute;
   left: 50%;
@@ -80,33 +105,48 @@
   margin: 0;
 }
 
-/* HOVER EFFECT */
 .mission-bar:hover {
   transform: translateX(-50%) translateY(-4px);
   transition: all 0.3s ease;
 }
 
-/* MOBILE */
+/* ===========================
+   MOBILE
+=========================== */
+
 @media (max-width: 768px) {
   .landing-hero {
-    height: 75vh;
+    height: 80vh;
     margin-bottom: 100px;
   }
 
-  .hero-badge {
-    top: 20px;
-    left: 20px;
-    right: 20px;
+  .hero-overlay {
+    justify-content: center;
+    align-items: center;
+    padding: 0 6%;
+  }
 
+  .hero-content {
+    max-width: 100%;
     text-align: center;
-    font-size: 0.8rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
   }
 
   .mission-bar {
     width: 92%;
     padding: 1.2rem;
     font-size: 1rem;
-
     translate: 0 40%;
   }
 }

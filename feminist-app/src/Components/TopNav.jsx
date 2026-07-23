@@ -39,6 +39,7 @@ const TopNav = () => {
             <NavDropdown title="Updates" id="updates-dropdown" className="nav-link-custom custom-dropdown">
               <NavDropdown.Item href="/blog">News and Stories</NavDropdown.Item>
               <NavDropdown.Item href="/careers">Career Opportunities</NavDropdown.Item>
+              <NavDropdown.Item href="/resources">Resources and Tools</NavDropdown.Item>
             </NavDropdown>
             
 

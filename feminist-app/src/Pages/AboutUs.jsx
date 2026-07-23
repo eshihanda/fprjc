@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
-import about from '../assets/about2.png';
+import about from '../assets/hero2.png';
 import '../Styles/About.css';
 
 import AboutHero from '../Components/AboutHero';

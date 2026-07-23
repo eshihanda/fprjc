@@ -1,0 +1,38 @@
+.top-header {
+  background: #5e1385;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.top-header-container {
+  width: min(1200px, 92%);
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.top-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.top-item svg {
+  font-size: 13px;
+}
+
+.top-item span {
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+
+  .top-header {
+    display: none;
+  }
+
+}

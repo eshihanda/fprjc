@@ -4,7 +4,7 @@
 // import "../Styles/HeroSection.css";
 
 // const HeroSection = () => {
-//   const navigate = useNavigate();
+// //   const navigate = useNavigate();
 
 //   return (
 //     <section className='landing-hero'>
