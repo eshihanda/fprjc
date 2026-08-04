@@ -32,8 +32,93 @@ const Careers = () => {
       </p>
       </div>
   </section>
- {/* NO VACANCIES SECTION */}
- <section className="vacancies-section">
+  {/* CURRENT OPENINGS */}
+<section className="vacancies-section">
+  <div className="container">
+
+    <h3 className="vacancies-title text-center mb-5">
+      Current Openings
+    </h3>
+
+    <div
+      className="vacancy-card mx-auto"
+      style={{
+        maxWidth: "850px",
+        padding: "2.5rem",
+        borderRadius: "16px",
+        background: "#fff",
+        boxShadow: "0 8px 25px rgba(0,0,0,.08)",
+      }}
+    >
+      <span
+        style={{
+          display: "inline-block",
+          background: "#f3e8ff",
+          color: "#5e1385",
+          padding: "6px 14px",
+          borderRadius: "20px",
+          fontWeight: "600",
+          marginBottom: "1rem",
+        }}
+      >
+       Call for Applications
+      </span>
+
+      <h4
+        className="fw-bold"
+        style={{ color: "#5e1385" }}
+      >
+        Facilitator- Institutionalizing Civic Forums within Community-Based Organizations (CBOs) in Kibera
+
+      </h4>
+
+      <p
+        className="text-muted mt-3"
+        style={{ lineHeight: "1.8" }}
+      >
+        The Feminist for Peace, Rights and Justice Centre (FPRJC) is implementing the Feminist Action for Community-Led Governance Project. In that regard, we are looking
+        for a facilitator who will design and facilitate a highly participatory two-day workshop on Institutionalizing Civic
+        Forums within Community-Based Organizations (CBOs) in Kibera covering .
+      </p>
+
+      <div className="row mt-4 mb-4">
+
+        <div className="col-md-6">
+          <strong> Location</strong>
+          <p>Nairobi, Kenya</p>
+        </div>
+
+        <div className="col-md-6">
+          <strong> Application Deadline</strong>
+          <p>13 August 2026</p>
+        </div>
+
+      </div>
+
+      <div>
+
+        <a
+          href="/Call.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            style={{
+              background: "#5e1385",
+              border: "none",
+            }}
+          >
+            View Call
+          </Button>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+ 
+ {/* NO VACANCIES <section className="vacancies-section">
   <div className="container text-center">
     <h3 className="vacancies-title">Current Openings</h3>
 
@@ -77,7 +162,7 @@ const Careers = () => {
       </div>
     </div>
   </div>
-</section> 
+</section>  */}
 <Footer />
 </>
   )
