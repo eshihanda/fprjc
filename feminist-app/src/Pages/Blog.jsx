@@ -12,6 +12,7 @@ import sara from "../assets/climate.png";
 import femi from "../assets/femi.png";
 import mother from "../assets/mother.png";
 import waters from "../assets/waters.png";
+import womenvoices from '../assets/womenvoices.png'
 
 import Footer from "../Components/Footer";
 
@@ -19,12 +20,21 @@ const stories = [
  
   {
     id: 1,
+    title: "Amplifying Women Voices through Digital Storytelling",
+    type: "blog",
+    date: " Aug 10, 2026",
+    image: womenvoices,
+    link: "/blog/amplify",
+  },
+  {
+    id: 1,
     title: "When the Waters Rise",
     type: "Blog",
     date: " July 12, 2026",
     image: waters,
     link: "/blog/livelihood",
-  },{
+  },
+  {
     id: 1,
     title: "End Period Poverty in Kibera",
     type: "CAMPAIGN UPDATE",

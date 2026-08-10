@@ -48,6 +48,7 @@ import FemiNgarisha from './Pages/FemiNgarisha';
 import AdvocacyToolkit from "./Pages/AdvocacyToolkit";
 import Livelihood from './Pages/Livelihood';
 import Resources from './Pages/Resources';
+import Amplify from './Pages/Amplify';
 
 const App = () => {
   return (
@@ -102,6 +103,7 @@ const App = () => {
         <Route path="/blog/mothers-day" element={<MothersDay />} />
         <Route path="/blog/femi-ngarisha" element={<FemiNgarisha />} />
         <Route path='/blog/livelihood' element={<Livelihood />} />
+        <Route path='/blog/amplify' element={<Amplify />} />
 
 
         <Route path='/programs/pillar-1/gbv' element={<GBV />}></Route>
@@ -114,7 +116,7 @@ const App = () => {
         <Route path="/programs/womentech" element={<WomenTech />} />
         <Route path="/programs/civic-education" element={<CivicEducation />} />
         <Route path="/advocacy-toolkit" element={<AdvocacyToolkit />} />
-         <Route path="/resources" element={<Resources />} />
+        <Route path="/resources" element={<Resources />} />
         
 
 
