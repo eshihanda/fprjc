@@ -19,10 +19,10 @@ const Careers = () => {
     </section>
     <section className='careers-intro'>
       <div className='container'>
-        {/* <p>We are always looking for passionate, committed individuals to join our
+       <p>We are always looking for passionate, committed individuals to join our
           mission of advancing justice, dignity, and safety for girls and women in
           Kibra.
-      </p> */}
+      </p> 
       <p>            
         Feminist for Peace Rights and Justice Center welcomes passionate,
         values-driven individuals who believe in gender equality, justice,
@@ -33,7 +33,7 @@ const Careers = () => {
       </div>
   </section>
   {/* CURRENT OPENINGS */}
-<section className="vacancies-section">
+{/* <section className="vacancies-section">
   <div className="container">
 
     <h3 className="vacancies-title text-center mb-5">
@@ -116,9 +116,10 @@ const Careers = () => {
     </div>
 
   </div>
-</section>
+</section> */}
  
- {/* NO VACANCIES <section className="vacancies-section">
+ {/* NO VACANCIES */}
+ <section className="vacancies-section">
   <div className="container text-center">
     <h3 className="vacancies-title">Current Openings</h3>
 
@@ -162,7 +163,7 @@ const Careers = () => {
       </div>
     </div>
   </div>
-</section>  */}
+</section>  
 <Footer />
 </>
   )

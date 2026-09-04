@@ -11,7 +11,6 @@ import marline from '../assets/marline.png';
 import Lizzy from '../assets/Lizzy.png';
 import euny from '../assets/euny.png';
 import bravin from '../assets/bravin.png';
-import diana from '../assets/diana.png';
 import andolo from '../assets/andolo.png';
 import irene from '../assets/irene.png';
 import momi from '../assets/momi.png';
@@ -87,11 +86,6 @@ const Assistants = [
     name: "Caren Brandy",
     title: "Finance Officer",
     photo: brandy,
-  },
-  {
-    name: "Diana Oranga",
-    title: "Assistant Project Officer",
-    photo: diana,
   },
   {
     name: "Queenter Anyango",
