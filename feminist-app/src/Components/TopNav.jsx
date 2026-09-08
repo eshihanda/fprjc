@@ -28,11 +28,16 @@ const TopNav = () => {
               <NavDropdown.Item href="/our-board">Board of Directors</NavDropdown.Item>
             </NavDropdown>
 
-            {/* <NavDropdown title="Our Programmes" id="programmes-dropdown" className="nav-link-custom custom-dropdown">
-              <NavDropdown.Item href="/pillar1">Women's Health Rights & Wellbeing</NavDropdown.Item>
-              <NavDropdown.Item href="/pillar2">Women's Leadership & Governance</NavDropdown.Item>
-              <NavDropdown.Item href="/pillar3">Women's Climate Action & Livelihoods Development</NavDropdown.Item>
-            </NavDropdown> */}
+            <NavDropdown title="What we Do" id="programmes-dropdown" className="nav-link-custom custom-dropdown">
+              <NavDropdown.Item href="/programs/pillar-1/gbv">Ending all forms of gender-based violence</NavDropdown.Item>
+              <NavDropdown.Item href="/programs/pillar-1/srhr">Sexual and Reproductive Health Rights</NavDropdown.Item>
+              <NavDropdown.Item href="/programs/womenpeace">Women Peace and Security</NavDropdown.Item>
+              <NavDropdown.Item href="/programs/civic-education">Women Civic Education</NavDropdown.Item>
+              <NavDropdown.Item href="/programs/mentorship">Feminist Mentorship</NavDropdown.Item>
+              <NavDropdown.Item href="/programs/womentech">Women and Technology</NavDropdown.Item>
+              <NavDropdown.Item href="/pillar3">Women Climate Action and Livelihood Development</NavDropdown.Item>
+              <NavDropdown.Item href="/pillar3">Women Economic Empowerment</NavDropdown.Item>
+            </NavDropdown> 
 
              <Nav.Link href='our-impact' className='nav-link-custom'> Our Impact </Nav.Link>
 
