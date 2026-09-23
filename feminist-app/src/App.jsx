@@ -49,6 +49,7 @@ import AdvocacyToolkit from "./Pages/AdvocacyToolkit";
 import Livelihood from './Pages/Livelihood';
 import Resources from './Pages/Resources';
 import Amplify from './Pages/Amplify';
+import Tenders from './Pages/Tenders';
 
 const App = () => {
   return (
@@ -117,6 +118,7 @@ const App = () => {
         <Route path="/programs/civic-education" element={<CivicEducation />} />
         <Route path="/advocacy-toolkit" element={<AdvocacyToolkit />} />
         <Route path="/resources" element={<Resources />} />
+        <Route path="/tenders" element={<Tenders />}   />
         
 
 

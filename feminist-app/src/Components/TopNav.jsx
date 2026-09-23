@@ -45,6 +45,8 @@ const TopNav = () => {
               <NavDropdown.Item href="/blog">News and Stories</NavDropdown.Item>
               <NavDropdown.Item href="/careers">Career Opportunities</NavDropdown.Item>
               <NavDropdown.Item href="/resources">Resources and Tools</NavDropdown.Item>
+              <NavDropdown.Item href="/tenders">Tenders</NavDropdown.Item>
+
             </NavDropdown>
             
 
