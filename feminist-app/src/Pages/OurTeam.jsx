@@ -7,7 +7,6 @@ import dita from '../assets/dita.png';
 import july from '../assets/july.png';
 import feli from '../assets/feli.png';
 import brandy from '../assets/brandy.png';
-import marline from '../assets/marline.png';
 import Lizzy from '../assets/Lizzy.png';
 import euny from '../assets/euny.png';
 import bravin from '../assets/bravin.png';
@@ -41,11 +40,7 @@ const Managers = [
     title: "Programs Coordinator - Women's Health Rights and Wellbeing",
     photo: july,
   },
-  {
-    name: "Marline Kerera",
-    title: "Programs Coordinator - Women's Leadership and Governance",
-    photo: marline,
-  },
+  
 ];
 
 const Officers = [
