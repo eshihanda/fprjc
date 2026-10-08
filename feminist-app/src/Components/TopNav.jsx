@@ -39,11 +39,12 @@ const TopNav = () => {
               <NavDropdown.Item href="/pillar3">Women Economic Empowerment</NavDropdown.Item>
             </NavDropdown> 
 
-             <Nav.Link href='our-impact' className='nav-link-custom'> Our Impact </Nav.Link>
+             <Nav.Link href='/our-impact' className='nav-link-custom'> Our Impact </Nav.Link>
 
             <NavDropdown title="Updates" id="updates-dropdown" className="nav-link-custom custom-dropdown">
               <NavDropdown.Item href="/blog">News and Stories</NavDropdown.Item>
               <NavDropdown.Item href="/careers">Career Opportunities</NavDropdown.Item>
+              <NavDropdown.Item href="/newsletter">Quarterly Newsletter</NavDropdown.Item>
               <NavDropdown.Item href="/resources">Resources and Tools</NavDropdown.Item>
               <NavDropdown.Item href="/tenders">Tenders</NavDropdown.Item>
 

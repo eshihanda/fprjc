@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Footer from "../Components/Footer";
@@ -6,6 +7,14 @@ import "../Styles/Resources.css";
 const resources = [
   {
     id: 1,
+    title: "FPRJC Quarterly Newsletter – Q3 2026",
+    category: "Newsletter",
+    description:
+      "Read highlights from our programmes, community work, advocacy initiatives, partnerships, impact stories, and organizational updates from July to September 2026.",
+    file: "/Newsletter-q3.pdf",
+  },
+  {
+    id: 2,
     title: "FPRJC Quarterly Newsletter – Q2 2026",
     category: "Newsletter",
     description:
@@ -13,14 +22,13 @@ const resources = [
     file: "/Newsletter-q2-2026.pdf",
   },
   {
-    id: 2,
+    id: 3,
     title: "Child Protection and Safeguarding Advocacy Toolkit",
     category: "Toolkit",
     description:
       "A practical resource for community-based child safeguarding advocacy and policy engagement to prevent sexual and gender-based violence in schools and communities.",
     file: "/AdvocacyToolkit.pdf",
   },
-
 ];
 
 const Resources = () => {
